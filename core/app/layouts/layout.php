@@ -48,8 +48,16 @@
           <li class="nav-item">
             <a class="nav-link" href="./?view=index">Inicio</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./?view=about">Institucional</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Institucional
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="./?view=about">Nuestra Historia</a>
+              <a class="dropdown-item" href="blog-single.html">Mision y Vision</a>
+              <!--<a class="dropdown-item" href="agent-single.html">Agent Single</a> -->
+            </div>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -64,13 +72,8 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./?view=agents">Autoridades</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="property-grid.html">Blas Pascal</a>
           </li>
-
-
           <li class="nav-item">
             <a class="nav-link" href="./?view=blog">Proyectos</a>
           </li>         
@@ -88,19 +91,10 @@
   ?>
 
   <footer>
-    <div class="container-fluid">
-      <div class="row">       
-      </div>
+    <div class="container">
       <div class="row">
-        <div class="col-md-4">
-          <div class="widget-a">
-            <div class="w-header-a">
-              <img src="assets/img/logo.png" style="width: 120px">
-              <br>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
+          <h6>Instituto Ntra. Sra. de Fátima</h6>
           <span class="text-copy">Aguero 724 Esq. Constitución</span>
           <br>
           <span class="text-copy">Marcos Paz - Pcia. Bs. As.</span>
@@ -109,38 +103,88 @@
           <br>
           <span class="text-copy">Email: administracion@insfa.com.ar</span>
           <br><br>
-          <div class="socials-a">
-            <ul class="list-inline">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="admin/index.php">
-                  <i class="fa fa-lock" aria-hidden="true"></i>
-                </a>
-              </li>              
-            </ul>
-          </div>                    
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
+          <h6>Area administrativa</h6>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="style" href="./?view=about">Institucional</a>
+              </li>
+              <li class="nav-item">
+                <a class="style" href="./?view=agents">Autoridades</a>
+              </li>
+              <li class="nav-item">
+                <a class="style" href="property-grid.html">Plan Educativo</a>
+              </li>
+              <li class="nav-item">
+                <a class="style" href="./?view=blog">Proyectos</a>
+              </li>         
+              <li class="nav-item">
+                <a class="style" href="admin/index.php">Portal</a>
+              </li>          
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <h6>Mapa del Sitio</h6>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="style" href="./?view=about">Institucional</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class=" style nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Niveles
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="property-single.html">Inicial</a>
+                  <a class="dropdown-item" href="blog-single.html">Primario</a>
+                  <a class="dropdown-item" href="agents-grid.html">Secundario</a>
+                  <!--<a class="dropdown-item" href="agent-single.html">Agent Single</a> -->
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="style" href="property-grid.html">Blas Pascal</a>
+              </li>
+              <li class="nav-item">
+                <a class="style" href="./?view=blog">Proyectos</a>
+              </li>         
+              <li class="nav-item">
+                <a class="style" href="./?view=contact">Contacto</a>
+              </li>          
+            </ul>
+        </div>                   
+        <div class="col-md-3">
           <div class="row">
             <div class="col-md-12">
+              <h6>Nuestras Redes Sociales</h6>
+              <div class="socials-a">
+                <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="admin/index.php">
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+                  </a>
+                </li>              
+                </ul>
+              </div>              
               <p class="text-copy">2019 &copy;
                 <span class="text-copy">Instituto Ntra. Sra. de Fátima </span>
                 <p class="text-copy">Todos los derechos reservados</p>
-              Creado por <a href="http://www.oestedev.com"><img src="assets/img/oestedev.png" style="width: 60px;"></a>        
+                <p class="text-copy">Sitio creado por <a href="http://www.oestedev.com"><img src="assets/img/oestedev.png" style="width: 60px;"></a></p>        
             </div>                 
           </div>          
         </div>

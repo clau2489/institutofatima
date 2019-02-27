@@ -93,7 +93,7 @@ a:hover {
 }
 
 .color-text-a {
-  color: #bd2130;
+    color: #313131;
 }
 
 .no-margin {
@@ -1525,11 +1525,10 @@ a:hover {
 }
 
 footer {
-    background: #3e0c00;
-    text-align: center;
+    background: rgba(107, 16, 16, 0.88);
+    /* text-align: center; */
     padding: 30px 0;
 }
-
 footer .copyright-footer {
   border-top: 1px solid #ddd;
   padding-top: 20px;
@@ -2019,8 +2018,9 @@ footer .credits {
 }
 
 .text-copy {
-    color: #a1a1ab;
+    color: #ced4da;
     font-size: 14px;
+    font-weight: 500;
 }
 
 #copyright {
@@ -2032,4 +2032,7 @@ footer .credits {
 }
 .padding {
     padding: 3em;
+}
+.style {
+    color: #ced4da;
 }

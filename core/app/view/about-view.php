@@ -4,20 +4,8 @@
       <div class="row">
         <div class="col-md-12 col-lg-8">
           <div class="title-single-box">
-            <h1 class="title-single">We Do Great Design For Creative Folks</h1>
+            <h1 class="title-single">Nuestra Historia</h1>
           </div>
-        </div>
-        <div class="col-md-12 col-lg-4">
-          <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item">
-                <a href="#">Home</a>
-              </li>
-              <li class="breadcrumb-item active" aria-current="page">
-                About
-              </li>
-            </ol>
-          </nav>
         </div>
       </div>
     </div>
@@ -28,45 +16,24 @@
   <section class="section-about">
     <div class="container">
       <div class="row">
-        <div class="col-sm-12">
-          <div class="about-img-box">
-            <img src="assets/img/slide-about-1.jpg" alt="" class="img-fluid">
-          </div>
-          <div class="sinse-box">
-            <h3 class="sinse-title">EstateAgency
-              <span></span>
-              <br> Sinse 2017</h3>
-            <p>Art & Creative</p>
-          </div>
-        </div>
-        <div class="col-md-12 section-t8">
+        <div class="col-md-12">
           <div class="row">
-            <div class="col-md-6 col-lg-5">
-              <img src="assets/img/about-2.jpg" alt="" class="img-fluid">
+            <div class="col-md-6">
+              <img src="assets/img/1.jpg" alt="" class="img-fluid">
             </div>
-            <div class="col-lg-2  d-none d-lg-block">
-              <div class="title-vertical d-flex justify-content-start">
-                <span>EstateAgency Exclusive Property</span>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-5 section-md-t3">
-              <div class="title-box-d">
-                <h3 class="title-d">Sed
-                  <span class="color-d">porttitor</span> lectus
-                  <br> nibh.</h3>
-              </div>
+            <div class="col-md-6">
               <p class="color-text-a">
-                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus magna justo, lacinia eget
-                consectetur sed, convallis
-                at tellus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum
-                ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit
-                neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.
+                Hace 25 años, un grupo de docentes decidió reunirse y fundar una escuela. Con el objetivo de satisfacer la creciente demanda en el distrito y además, brindarle a la comunidad un espacio de encuentro, saberes y de formación para niños, niñas y adolescentes.
               </p>
               <p class="color-text-a">
-                Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
-                Mauris blandit aliquet
-                elit, eget tincidunt nibh pulvinar a. Vivamus magna justo, lacinia eget consectetur sed,
-                convallis at tellus.
+                Esta escuela nace de un sueño, de un deseo y por sobretodo un propósito: formar buenas personas. Es ahí en donde nos sentimos capaces de devolver y otorgarle a la sociedad no solo el poder del saber, sino también la posibilidad de ejercer la libertad y de brindar derechos tan importantes como el derecho a aprender.
+              </p>
+
+              <p class="color-text-a">
+                Con el paso del tiempo, fuimos creciendo a la par de nuestros alumnos. En los primeros años se contaba solamente con una sección por cada año de cada nivel a medida que la comunidad iba demandado se fueron creando cursos hasta completar dos seccione por cada sala de inicial desde los 3 años, los seis años de educación primaria con dos secciones también y ambos ciclos de secundaria, tanto básica y superior. En lo que hace a este último, el instituto cuenta con dos orientaciones que se desarrollaron pensando ampliamente en las necesidades: una otorga el título de Bachiller en orientación economía y gestión de las organizaciones, especialidad que formó parte desde la creación del instituto. Y la segunda fruto del surgimiento del plan de secundaria de seis años que es la de Humanidades y ciencias sociales. Hoy nos encontramos ante el nuevo desafío de ser escuela promotora de la nueva secundaria. 
+              </p>
+              <p class="color-text-a">
+                En materia edilicia, creamos nuevos salones de clase y espacios preparados para brindar aprendizaje desde lo tecnológico, los idiomas y las artes como también desde lo físico mediante la construcción del polideportivo cubierto y del campo de deportes siempre perseverando los estándares de seguridad para las instituciones educativas.
               </p>
             </div>
           </div>
