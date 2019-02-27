@@ -14,9 +14,9 @@
 .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
-    font-size: xx-large;
+    font-size: 16px;
     -moz-osx-font-smoothing: grayscale;
-    color: aliceblue;
+    color: #ce8007;
 }
 /* makes the font 33% larger relative to the icon container */
 .fa-lg {

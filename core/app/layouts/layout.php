@@ -88,29 +88,27 @@
   ?>
 
   <footer>
-    <div class="container">
+    <div class="container-fluid">
+      <div class="row">       
+      </div>
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-4">
           <div class="widget-a">
             <div class="w-header-a">
-              <h3 class="w-title-a text-brand">Instituto Ntra. Sra.de Fátima</h3>
-            </div>
-            <div class="w-body-a">
-              <p class="w-text-a text-copy">
-                Constitución 624 Esq. Aguero - Marcos Paz
-              </p>
-            </div>
-            <br>
-            <div class="w-footer-a">
-              <ul class="list-unstyled">
-                <li class="color-a">
-                  <span class="text-copy">Teléfono: (0220)-477-5889</li>
-                <li class="color-a">
-                  <span class="text-copy">Email: administracion@insfa.com.ar</li>
-              </ul>
+              <img src="assets/img/logo.png" style="width: 120px">
+              <br>
             </div>
           </div>
+        </div>
+        <div class="col-md-4">
+          <span class="text-copy">Aguero 724 Esq. Constitución</span>
           <br>
+          <span class="text-copy">Marcos Paz - Pcia. Bs. As.</span>
+          <br>
+          <span class="text-copy">Teléfono: (0220)-477-5889</span>
+          <br>
+          <span class="text-copy">Email: administracion@insfa.com.ar</span>
+          <br><br>
           <div class="socials-a">
             <ul class="list-inline">
               <li class="list-inline-item">
@@ -134,20 +132,21 @@
                 </a>
               </li>              
             </ul>
-          </div>
+          </div>                    
+        </div>
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-12">
+              <p class="text-copy">2019 &copy;
+                <span class="text-copy">Instituto Ntra. Sra. de Fátima </span>
+                <p class="text-copy">Todos los derechos reservados</p>
+              Creado por <a href="http://www.oestedev.com"><img src="assets/img/oestedev.png" style="width: 60px;"></a>        
+            </div>                 
+          </div>          
         </div>
       </div>
     </div>
   </footer>
-  <div id="copyright" class="container-fluid">
-    <div class="row">
-      <div class="col-md-12">
-        <p>2019 &copy; Copyright
-          <span>Instituto Ntra. Sra. de Fátima </span>
-        </p>Creado por <a href="http://www.oestedev.com"><img src="assets/img/oestedev.png" style="width: 60px;"></a>        
-      </div>     
-    </div>    
-  </div>
 
   <!--/ Footer End /-->
 

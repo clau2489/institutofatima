@@ -1525,7 +1525,7 @@ a:hover {
 }
 
 footer {
-    background: #710d0d;
+    background: #3e0c00;
     text-align: center;
     padding: 30px 0;
 }
@@ -1617,8 +1617,8 @@ footer .credits {
 }
 
 .btn.btn-a {
-  background-color: #000000;
-  color: #ffffff;
+    background-color: #bd2130;
+    color: #ffffff;
 }
 
 .btn.btn-a:hover {
@@ -2019,7 +2019,7 @@ footer .credits {
 }
 
 .text-copy {
-    color: white;
+    color: #a1a1ab;
     font-size: 14px;
 }
 
@@ -2029,4 +2029,7 @@ footer .credits {
     text-align: center;
     padding: 20px;
     font-size: 12px;
+}
+.padding {
+    padding: 3em;
 }
