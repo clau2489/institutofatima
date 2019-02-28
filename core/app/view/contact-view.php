@@ -63,8 +63,7 @@
             </div>            
             <div class="col-md-6">
               <form class="form-a contactForm" action="" method="post" role="form">
-                <div id="sendmessage">Your message has been sent. Thank you!</div>
-                <div id="errormessage"></div>
+                <h6>Envianos tu consulta</h6>
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-group">
