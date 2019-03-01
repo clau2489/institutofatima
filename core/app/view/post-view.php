@@ -7,16 +7,10 @@ $jb  = PostData::getById($_GET["id"]);
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-         <div class="post-information">
-          <ul class="list-inline text-center color-a">
-            <li class="list-inline-item">
-              <span class="color-text-a">19 Apr. 2017</span>
-            </li>
-          </ul>
-        </div>
-        <h1><?php echo $jb->title; ?></h1>
+        <span class="color-text-a">19 Apr. 2017</span>
+        <h1 class="title-news"><?php echo $jb->title; ?></h1>
         <br><br>
-        <span class="color-text-a"><h4><?php echo $jb->brief; ?></h4></span>        
+        <span class="color-text-a"><h4 class="subtitle"><?php echo $jb->brief; ?></h4></span>        
       </div>
     </div>
     <div class="row">

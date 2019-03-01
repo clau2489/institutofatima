@@ -15,6 +15,7 @@ h4,
 h5,
 h6 {
   color: #000000;
+  font-size: 25px;
 }
 
 a {
@@ -616,11 +617,10 @@ a:hover {
 }
 
 .navbar-default.navbar-reduce {
-  transition: all .5s ease-in-out;
-  padding-top: 19px;
-  padding-bottom: 19px;
+   transition: all .5s ease-in-out; */
+    /* padding-top: 19px; */
+    /* padding-bottom: 19px; */
 }
-
 .navbar-default.navbar-reduce .nav-link {
     color: #bd2130;
 }
@@ -956,8 +956,8 @@ a:hover {
 }
 
 .intro-single .title-single-box .title-single {
-  font-weight: 600;
-  font-size: 2.2rem;
+    font-weight: 600;
+    font-size: 1.8rem;
 }
 
 .intro-single .breadcrumb-box {
@@ -1198,7 +1198,7 @@ a:hover {
 }
 
 .post-content .post-intro {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     margin-bottom: 4rem;
     line-height: 1.6;
@@ -1298,7 +1298,7 @@ a:hover {
 }
 
 .card-box-ico {
-  padding: 1rem 3rem 1rem 2.5rem;
+  padding: 1rem 3rem 1rem 1.8em;
   border: 5px solid #bd2130;
 }
 
@@ -1308,7 +1308,7 @@ a:hover {
 }
 
 .title-c {
-  font-size: 2.5rem;
+  font-size: 1.8em;
   font-weight: 600;
   margin-left: -40px;
 }
@@ -1525,7 +1525,7 @@ a:hover {
 }
 
 footer {
-    background: rgba(107, 16, 16, 0.88);
+    background: rgb(90, 3, 9);
     /* text-align: center; */
     padding: 30px 0;
 }
@@ -1660,7 +1660,7 @@ footer .credits {
   }
 
   .sinse-box {
-    padding: 1.5rem 2.5rem;
+    padding: 1.5rem 1.8em;
     bottom: 20px;
   }
 
@@ -1721,7 +1721,7 @@ footer .credits {
   }
 
   .intro .intro-subtitle {
-    font-size: 2.5rem;
+    font-size: 1.8em;
   }
 
   .intro .intro-subtitle.intro-price {
@@ -1730,14 +1730,14 @@ footer .credits {
   }
 
   .intro-single .title-single-box .title-single {
-    font-size: 2.1rem;
+    font-size: 1.8em;
   }
 
   .grid .card-box-a,
   .grid .card-box-b,
   .grid .card-box-c,
   .grid .card-box-d {
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.8em;
   }
 
   .card-box-a:hover .img-a,
@@ -1868,7 +1868,7 @@ footer .credits {
   }
 
   .intro-single .title-single-box .title-single {
-    font-size: 2.5rem;
+    font-size: 1.8em;
   }
 
   .card-box-a .price-a,
@@ -1905,7 +1905,7 @@ footer .credits {
   }
 
   .title-c {
-    font-size: 2.5rem;
+    font-size: 1.8em;
   }
 
   .card-box-d .card-overlay-hover {
@@ -1927,7 +1927,7 @@ footer .credits {
   }
 
   .sinse-box .sinse-title {
-    font-size: 2.2rem;
+    font-size: 1.8em;
   }
 }
 
@@ -1944,7 +1944,7 @@ footer .credits {
 
 @media (max-width: 991px) {
   .property-contact {
-    margin-top: 2.5rem;
+    margin-top: 1.8em;
   }
 }
 
@@ -1972,7 +1972,7 @@ footer .credits {
   }
 
   .section-tb85 {
-    padding: 4rem 0 2.5rem 0;
+    padding: 4rem 0 1.8em 0;
   }
 
   .intro-single {
@@ -1983,7 +1983,7 @@ footer .credits {
   .card-box-b,
   .card-box-c,
   .card-box-d {
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.8em;
   }
 
   .card-box-a .card-overlay-a-content {
@@ -1995,7 +1995,7 @@ footer .credits {
   }
 
   .property-agent {
-    margin-top: 2.5rem;
+    margin-top: 1.8em;
   }
 
   .card-box-c {
@@ -2039,4 +2039,29 @@ footer .credits {
 .img-news {
     max-width: 100%;
     height: 350px;
+}
+.title-news {
+    /* background-color: #d4d4d4; */
+    color: #212529;
+    border-bottom-style: solid;
+    border-bottom-color: #bd2130;
+    padding-bottom: 20px;
+    padding-top: 60px;
+}
+.subtitle {
+    color: #6c757d;
+    font-size: 20px;
+    padding-bottom: 2em;
+}
+.center {
+    text-align: center;
+}
+.section-testimonials {
+    background-color: #dae0e5;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.color-text-b {
+    font-size: larger;
+    font-weight: 800;
 }

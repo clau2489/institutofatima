@@ -39,10 +39,6 @@
         <span></span>
       </button>
       <img src="assets/img/logo.jpg" width="70px">
-      <button type="button" class="btn btn-link nav-search navbar-toggle-box-collapse d-md-none" data-toggle="collapse"
-        data-target="#navbarTogglerDemo01" aria-expanded="false">
-        <span class="fa fa-search" aria-hidden="true"></span>
-      </button>
       <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -55,7 +51,7 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="./?view=about">Nuestra Historia</a>
-              <a class="dropdown-item" href="blog-single.html">Mision y Vision</a>
+              <a class="dropdown-item" href="./?view=mision">Misión y Visión</a>
               <!--<a class="dropdown-item" href="agent-single.html">Agent Single</a> -->
             </div>
           </li>
@@ -79,7 +75,10 @@
           </li>         
           <li class="nav-item">
             <a class="nav-link" href="./?view=contact">Contacto</a>
-          </li>          
+          </li>
+          <div>
+            <img src="assets/img/25.png" style="width: 140px; text-align: center; margin-left: 3em;">
+          </div>                   
         </ul>
       </div>
     </div>
@@ -93,19 +92,25 @@
   <footer>
     <div class="container">
       <div class="row">
+        <div class="col-md-12">
+          <div class="container center">
+            <img src="assets/img/10.jpg" style="width: 70%">
+          </div>          
+        </div>
+      </div>
+      <br><br>
+      <div class="row">
         <div class="col-md-3">
-          <h6>Instituto Ntra. Sra. de Fátima</h6>
           <span class="text-copy">Aguero 724 Esq. Constitución</span>
           <br>
           <span class="text-copy">Marcos Paz - Pcia. Bs. As.</span>
           <br>
-          <span class="text-copy">Teléfono: (0220)-477-5889</span>
+          <span class="text-copy">(0220)-477-5889</span>
           <br>
-          <span class="text-copy">Email: administracion@insfa.com.ar</span>
+          <span class="text-copy">administracion@insfa.com.ar</span>
           <br><br>
         </div>
         <div class="col-md-3">
-          <h6>Area administrativa</h6>
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="style" href="./?view=about">Institucional</a>
@@ -125,7 +130,6 @@
             </ul>
         </div>
         <div class="col-md-3">
-            <h6>Mapa del Sitio</h6>
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="style" href="./?view=about">Institucional</a>
@@ -155,32 +159,7 @@
         </div>                   
         <div class="col-md-3">
           <div class="row">
-            <div class="col-md-12">
-              <h6>Nuestras Redes Sociales</h6>
-              <div class="socials-a">
-                <ul class="list-inline">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="admin/index.php">
-                    <i class="fa fa-lock" aria-hidden="true"></i>
-                  </a>
-                </li>              
-                </ul>
-              </div>              
+            <div class="col-md-12">              
               <p class="text-copy">2019 &copy;
                 <span class="text-copy">Instituto Ntra. Sra. de Fátima </span>
                 <p class="text-copy">Todos los derechos reservados</p>

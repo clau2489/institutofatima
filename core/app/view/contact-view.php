@@ -38,7 +38,7 @@
                   </div>
                   <div class="icon-box-content">
                     <p class="mb-1">
-                      Constitución 690 Esq. Aguero,
+                      Aguero 724 Esq. Aguero,
                       <br> Marcos Paz CP 1727
                     </p>
                   </div>

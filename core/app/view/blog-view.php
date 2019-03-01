@@ -2,7 +2,7 @@
 $jobs  = PostData::getAllActive();
 ?>
 
-<div class="container">
+<div class="container section-t8">
 <div class="row">
 <div class="col-md-12">
 <h1>Últimas Noticias</h1>
