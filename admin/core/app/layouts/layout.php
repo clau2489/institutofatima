@@ -161,8 +161,7 @@
         <?php else:?>
 <div class="login-box">
       <div class="login-logo">
-        <img src="dist/img/logo.jpg" style="width: 150px">
-        <h3>Mi Panel</h3>
+        <img src="dist/img/logo.png" style="width: 150px">
       </div><!-- /.login-logo -->
       <div class="login-box-body">
         <form action="./?action=processlogin" method="post">
@@ -180,7 +179,11 @@
               <button type="submit" class="btn btn-primary btn-block btn-flat">Ingresar</button>
             </div><!-- /.col -->
           </div>
+          <div class="col-xs-12 style="text-align: center"">
+              <a href="../index.php">Volver</a>
+            </div><!-- /.col -->
         </form>
+        
       </div><!-- /.login-box-body -->
     </div><!-- /.login-box -->  
     <?php endif;?>

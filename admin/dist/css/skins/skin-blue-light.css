@@ -3,7 +3,7 @@
  * ----------
  */
 .skin-blue-light .main-header .navbar {
-    background-color: #666;
+    background-color: #961707;
 }
 .skin-blue-light .main-header .navbar .nav > li > a {
   color: #ffffff;
@@ -42,12 +42,12 @@
   }
 }
 .skin-blue-light .main-header .logo {
-    background-color: #666;
+    background-color: #961707;
     color: #ffffff;
     border-bottom: 0px solid transparent;
 }
 .skin-blue-light .main-header .logo:hover {
-  background-color: #3b8ab8;
+  background-color: #961707;
 }
 .skin-blue-light .main-header li.user-header {
   background-color: #3c8dbc;
@@ -56,7 +56,7 @@
   background: transparent;
 }
 .skin-blue-light .wrapper, .skin-blue-light .main-sidebar, .skin-blue-light .left-side {
-    background-color: #666;
+    background-color: #961707;
 }
 .skin-blue-light .content-wrapper,
 .skin-blue-light .main-footer {

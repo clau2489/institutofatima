@@ -22,6 +22,7 @@
   <link href="assets/lib/animate/animate.min.css" rel="stylesheet">
   <link href="assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Rubik|Shadows+Into+Light|Sniglet|Raleway" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
   <link href="assets/css/style.css" rel="stylesheet">

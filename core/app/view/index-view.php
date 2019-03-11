@@ -4,32 +4,27 @@ $jobs  = PostData::getAllActive();
   <!--/ Carousel Star /-->
   <div class="intro intro-carousel">
     <div id="carousel" class="owl-carousel owl-theme">
-      <div class="carousel-item-a intro-item bg-image" style="background-image: url(assets/img/1.jpg)">
+      <div class="carousel-item-a intro-item bg-image" style="background-image: url(assets/img/frente1.jpg)">
         <div class="overlay overlay-a"></div>
         <div class="intro-content display-table">
         </div>
       </div>
-      <div class="carousel-item-a intro-item bg-image" style="background-image: url(assets/img/2.jpg)">
+      <div class="carousel-item-a intro-item bg-image" style="background-image: url(assets/img/frente2.jpg)">
         <div class="overlay overlay-a"></div>
         <div class="intro-content display-table">
         </div>
       </div>
-      <div class="carousel-item-a intro-item bg-image" style="background-image: url(assets/img/3.jpg)">
+      <div class="carousel-item-a intro-item bg-image" style="background-image: url(assets/img/frente3.jpg)">
         <div class="overlay overlay-a"></div>
         <div class="intro-content display-table">          
-          <!--<div class="table-cell">
+          <div class="table-cell">
             <div class="container">
               <div class="row">
                 <div class="col-lg-8">
                   <div class="intro-body">
-                    <p class="intro-title-top">Doral, Florida
-                      <br> 78345</p>
+                    <p class="intro-title-top">
                     <h1 class="intro-title mb-4">
-                      <span class="color-b">204 </span> Alira
-                      <br> Roan Road One</h1>
-                    <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">rent | $ 12.000</span></a>
-                    </p>
+                      25 años Formando buenas personas</h1>
                   </div>
                 </div>
               </div>
@@ -199,8 +194,9 @@ $jobs  = PostData::getAllActive();
 
   <!--/ Testimonials Star /-->
   <section class="section-testimonials nav-arrow-a">
-    <div class="container center">
+    <div class="container center">      
       <h1>Seguinos en nuestras Redes Sociales</h1>
+      <br>
       <div class="socials-a">
         <ul class="list-inline">
           <li class="list-inline-item">
@@ -220,6 +216,26 @@ $jobs  = PostData::getAllActive();
           </li>
         </ul>
       </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="subscribe-text mb-15">
+            <span>Suscribite a nuestro </span>
+            <h2>boletín de noticias</h2>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="subscribe-wrapper subscribe2-wrapper mb-15">
+            <div class="subscribe-form">
+              <form action="#">
+                <input placeholder="Ingresá tu Correo Electrónico" type="email">
+                <button>subscribe <i class="fas fa-long-arrow-alt-right"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>      
     </div>
   </section>
   <!--/ Testimonials End /-->

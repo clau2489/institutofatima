@@ -93,11 +93,10 @@ body {
     transform: translate(230px, 0);
   }
 }
-.content-wrapper,
-.right-side {
-  min-height: 100%;
-  background-color: #ecf0f5;
-  z-index: 800;
+.content-wrapper, .right-side {
+    min-height: 100%;
+    background-color: #ffffff;
+    z-index: 800;
 }
 .main-footer {
   background: #fff;
@@ -3039,7 +3038,7 @@ table.text-center th {
   color: #444;
 }
 .login-page, .register-page {
-    background: #e4e4e4;
+    background: #ffffff;
 }
 .login-box,
 .register-box {

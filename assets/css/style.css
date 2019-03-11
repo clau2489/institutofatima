@@ -926,8 +926,7 @@ a:hover {
 .intro .intro-title {
   transition-duration: 9s !important;
   color: #ffffff;
-  font-weight: 700;
-  font-size: 2.8rem;
+  font-size: 2.4em;
   text-transform: uppercase;
 }
 
@@ -1860,7 +1859,7 @@ footer .credits {
   }
 
   .intro .intro-title {
-    font-size: 4.5rem;
+    font-size: 2.4em
   }
 
   .intro .intro-subtitle.intro-price {
@@ -2047,6 +2046,7 @@ footer .credits {
     border-bottom-color: #bd2130;
     padding-bottom: 20px;
     padding-top: 60px;
+    text-transform: uppercase;
 }
 .subtitle {
     color: #6c757d;
@@ -2057,11 +2057,75 @@ footer .credits {
     text-align: center;
 }
 .section-testimonials {
-    background-color: #dae0e5;
     padding-top: 3em;
     padding-bottom: 3em;
 }
 .color-text-b {
     font-size: larger;
     font-weight: 800;
+}
+
+
+.subscribe-area {
+background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+.pt-70 {
+    padding-top: 70px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.subscribe-text span {
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 5px;
+}
+.subscribe-text h2 {
+    color: #fff;
+}
+.subscribe-wrapper {
+    overflow: hidden;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.subscribe-form {
+}
+.subscribe2-wrapper .subscribe-form input {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 900;
+    height: 57px;
+    margin-right: 17px;
+    padding-left: 35px;
+    width: 70%;
+    cursor: pointer;
+}
+ 
+.subscribe2-wrapper .subscribe-form button {
+    background: #ffff;
+    border: none;
+    border-radius: 30px;
+    color: #4b5d73;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    padding: 18px 46px;
+    transition: all 0.3s ease 0s;
+}
+.subscribe2-wrapper .subscribe-form button i {
+    font-size: 18px;
+    padding-left: 5px;
 }

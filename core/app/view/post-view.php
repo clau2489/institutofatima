@@ -7,7 +7,6 @@ $jb  = PostData::getById($_GET["id"]);
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <span class="color-text-a">19 Apr. 2017</span>
         <h1 class="title-news"><?php echo $jb->title; ?></h1>
         <br><br>
         <span class="color-text-a"><h4 class="subtitle"><?php echo $jb->brief; ?></h4></span>        
@@ -23,9 +22,7 @@ $jb  = PostData::getById($_GET["id"]);
       </div>
       <div class="col-md-6">
         <div class="post-content color-text-a">
-          <p class="post-intro">
             <?php echo $jb->content; ?>
-          </p>
         </div>
         <div class="post-footer">
           <div class="post-share">

@@ -1,3 +1,5 @@
+<script src="https://cdn.ckeditor.com/4.11.3/standard/ckeditor.js"></script>
+
 <section class="content">
 <div class="row">
 	<div class="col-md-12">
@@ -18,57 +20,49 @@ Nuevo Articulo
         <h4 class="modal-title" id="myModalLabel">Nuevo Articulo</h4>
       </div>
       <div class="modal-body">
-		<form class="form-horizontal" enctype="multipart/form-data" method="post" id="addcategory" action="index.php?action=posts&opt=add" role="form">
-
-
-  <div class="form-group">
-    <label for="inputEmail1" class="col-lg-4 control-label">Titulo*</label>
-    <div class="col-md-6">
-      <input type="text" name="title" required class="form-control" id="title" placeholder="Titulo">
-    </div>
-  </div>
-  <div class="form-group">
-    <label for="inputEmail1" class="col-lg-4 control-label">Descripcion Breve*</label>
-    <div class="col-md-6">
-      <textarea name="brief" required class="form-control" id="brief" placeholder="Descripcion Breve"></textarea>
-    </div>
-  </div>
-  <div class="form-group">
-    <label for="inputEmail1" class="col-lg-4 control-label">Contenido *</label>
-    <div class="col-md-6">
-      <textarea name="content" required class="form-control" id="content" placeholder="Contenido "></textarea>
-    </div>
-  </div>
-
-  <div class="form-group">
-    <label for="inputEmail1" class="col-lg-4 control-label">Imagen destacada (1920x1080)*</label>
-    <div class="col-md-6">
-      <input type="file" name="image" >
-    </div>
-  </div>
-
-  <div class="form-group">
-    <label for="inputEmail1" class="col-lg-4 control-label">Categoria </label>
-    <div class="col-md-6">
-    <select name="category_id" class="form-control" required>
-    <option value="">-- SELECCIONAR --</option>
-      <?php foreach(CategoryData::getAll() as $g):?>
-        <option value="<?php echo $g->id;  ?>"><?php echo $g->name; ?></option>
-      <?php endforeach; ?>
-    </select>
-    </div>
-  </div>
-
-
-  <div class="form-group">
-    <div class="col-lg-offset-2 col-lg-10">
-      <button type="submit" class="btn btn-primary">Agregar Articulo</button>
-    </div>
-  </div>
-</form>
-
+    		<form class="form-horizontal" enctype="multipart/form-data" method="post" id="addcategory" action="index.php?action=posts&opt=add" role="form">
+          <div class="form-group">
+            <label for="inputEmail1" class="col-lg-2 control-label">Titulo*</label>
+            <div class="col-md-10">
+              <input type="text" name="title" required class="form-control" id="title" placeholder="Titulo">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputEmail1" class="col-lg-2 control-label">Descripcion Breve*</label>
+            <div class="col-md-10">
+              <input name="brief" required class="form-control" id="brief" placeholder="Descripcion Breve"></input>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputEmail1" class="col-lg-2 control-label">Contenido *</label>
+            <div class="col-md-10">
+              <textarea name="content" required class="form-control" id="content" placeholder="Contenido "></textarea>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputEmail1" class="col-lg-2 control-label">Imagen destacada (1920x1080)*</label>
+            <div class="col-md-10">
+              <input type="file" name="image" >
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputEmail1" class="col-lg-2 control-label">Categoria </label>
+            <div class="col-md-10">
+            <select name="category_id" class="form-control" required>
+            <option value="">-- SELECCIONAR --</option>
+              <?php foreach(CategoryData::getAll() as $g):?>
+                <option value="<?php echo $g->id;  ?>"><?php echo $g->name; ?></option>
+              <?php endforeach; ?>
+            </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-lg-offset-2 col-lg-10">
+              <button type="submit" class="btn btn-primary">Agregar Articulo</button>
+            </div>
+          </div>
+        </form>
       </div>
-
     </div>
   </div>
 </div>
@@ -125,72 +119,62 @@ Editar
         <h4 class="modal-title" id="myModalLabel">Editar Articulo</h4>
       </div>
       <div class="modal-body">
-		<form class="form-horizontal" method="post" id="addproduct" action="index.php?action=posts&opt=update" role="form">
-
-
-  <div class="form-group">
-    <label for="inputEmail1" class="col-lg-4 control-label">Titulo*</label>
-    <div class="col-md-6">
-      <input type="text" name="title" value="<?php echo $user->title;?>" class="form-control" id="title" placeholder="Titulo">
-    </div>
-  </div>
-
-
-  <div class="form-group">
-    <label for="inputEmail1" class="col-lg-4 control-label">Descripcion Breve*</label>
-    <div class="col-md-6">
-      <textarea name="brief" required class="form-control" id="brief" placeholder="Descripcion Breve"><?php echo $user->brief;?></textarea>
-    </div>
-  </div>
-  <div class="form-group">
-    <label for="inputEmail1" class="col-lg-4 control-label">Contenido *</label>
-    <div class="col-md-6">
-      <textarea name="content" required class="form-control" id="content" placeholder="Contenido "><?php echo $user->content;?></textarea>
-    </div>
-  </div>
-
-  <div class="form-group">
-    <label for="inputEmail1" class="col-lg-4 control-label">Imagen destacada (1920x1080)*</label>
-    <div class="col-md-6">
-      <input type="file" name="image" >
-    </div>
-  </div>
-
-  <div class="form-group">
-    <label for="inputEmail1" class="col-lg-4 control-label">Categoria </label>
-    <div class="col-md-6">
-    <select name="category_id" class="form-control" required>
-    <option value="">-- SELECCIONAR --</option>
-      <?php foreach(CategoryData::getAll() as $g):?>
-        <option value="<?php echo $g->id;  ?>" <?php if($user->category_id==$g->id){ echo "selected"; }?>><?php echo $g->name; ?></option>
-      <?php endforeach; ?>
-    </select>
-    </div>
-  </div>
-
-
-
-  <div class="form-group">
-    <label for="inputEmail1" class="col-lg-4 control-label" >Esta activo</label>
-    <div class="col-md-6">
-<div class="checkbox">
-    <label>
-      <input type="checkbox" name="status" <?php if($user->status==1){ echo "checked";}?>> 
-    </label>
-  </div>
-    </div>
-  </div>
-
-  <div class="form-group">
-    <div class="col-lg-offset-2 col-lg-10">
-    <input type="hidden" name="user_id" value="<?php echo $user->id;?>">
-      <button type="submit" class="btn btn-primary">Actualizar Articulo</button>
-    </div>
-  </div>
-</form>
-
+		  <form class="form-horizontal" method="post" id="addproduct" action="index.php?action=posts&opt=update" role="form">
+      <div class="form-group">
+        <label for="inputEmail1" class="col-lg-2 control-label">Titulo*</label>
+        <div class="col-md-10">
+          <input type="text" name="title" value="<?php echo $user->title;?>" class="form-control" id="title" placeholder="Titulo">
+        </div>
       </div>
-
+      <div class="form-group">
+        <label for="inputEmail1" class="col-lg-2 control-label">Descripcion Breve*</label>
+        <div class="col-md-10">
+          <input name="brief" required class="form-control" id="brief" placeholder="Descripcion Breve">
+            <?php echo $user->brief;?>
+          </input>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputEmail1" class="col-lg-2 control-label">Contenido *</label>
+        <div class="col-md-10">
+          <textarea name="content" required class="form-control" id="content" placeholder="Contenido "><?php echo $user->content;?></textarea>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputEmail1" class="col-lg-2 control-label">Imagen destacada (1920x1080)*</label>
+        <div class="col-md-10">
+          <input type="file" name="image" >
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputEmail1" class="col-lg-2 control-label">Categoria </label>
+        <div class="col-md-10">
+        <select name="category_id" class="form-control" required>
+        <option value="">-- SELECCIONAR --</option>
+          <?php foreach(CategoryData::getAll() as $g):?>
+            <option value="<?php echo $g->id;  ?>" <?php if($user->category_id==$g->id){ echo "selected"; }?>><?php echo $g->name; ?></option>
+          <?php endforeach; ?>
+        </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputEmail1" class="col-lg-2 control-label" >Esta activo</label>
+        <div class="col-md-10">
+          <div class="checkbox">
+        <label>
+          <input type="checkbox" name="status" <?php if($user->status==1){ echo "checked";}?>> 
+        </label>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-lg-offset-2 col-lg-10">
+        <input type="hidden" name="user_id" value="<?php echo $user->id;?>">
+          <button type="submit" class="btn btn-primary">Actualizar Articulo</button>
+        </div>
+      </div>
+      </form>
+      </div>
     </div>
   </div>
 </div>
@@ -212,3 +196,7 @@ Editar
 </div>
 
 </section>
+
+<script>
+  CKEDITOR.replace( 'content' );
+</script>
