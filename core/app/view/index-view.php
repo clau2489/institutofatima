@@ -48,71 +48,48 @@ $jobs  = PostData::getAllActive();
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card-box-d">
-            <div class="card-img-d">
-              <img src="assets/img/agent-3.jpg" alt="" class="img-d img-fluid">
-            </div>
-            <div class="card-overlay card-overlay-hover">
-              <div class="card-header-d">
-                <div class="card-title-d align-self-center">
-                  <h3 class="title-d">
-                    <a href="agent-single.html" class="link-two">Nivel Inicial</a>
-                  </h3>
+       <div class="row">
+          <div class="col-md-3">
+             <div class="card bg-light">
+                <img class="card-img-top" src="assets/img/inicial.jpg">
+                <div class="card-body">
+                   <h5 class="card-title border-bottom pb-3">Nivel Inicial</h5>
+                   <p class="card-text">Jardin de Infantes para niños de 2,3,4 y 5 años.</p>
+                   <a href="./?view=inicial" class="btn btn-sm btn-info float-right">Leer más</a>
                 </div>
-              </div>
-              <div class="card-body-d">
-                <p class="content-d color-text-a">
-                  Salas de 3,4 y 5 años
-                </p>
-              </div>
-            </div>
+             </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card-box-d">
-            <div class="card-img-d">
-              <img src="assets/img/agent-4.jpg" alt="" class="img-d img-fluid">
-            </div>
-            <div class="card-overlay card-overlay-hover">
-              <div class="card-header-d">
-                <div class="card-title-d align-self-center">
-                  <h3 class="title-d">
-                    <a href="agent-single.html" class="link-two">Nivel Primario</a>
-                  </h3>
+          <div class="col-md-3">
+             <div class="card bg-light">
+                <img class="card-img-top" src="assets/img/primaria.jpg" alt="Card image cap">
+                <div class="card-body">
+                   <h5 class="card-title border-bottom pb-3">Nivel Primario</h5>
+                   <p class="card-text">Para niños a partir de los 6 años.</p>
+                   <a href="./?view=primaria" class="btn btn-sm btn-info float-right">Leer más</a>
                 </div>
-              </div>
-              <div class="card-body-d">
-                <p class="content-d color-text-a">
-                  
-                </p>
-              </div>
-            </div>
+             </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card-box-d">
-            <div class="card-img-d">
-              <img src="assets/img/agent-5.jpg" alt="" class="img-d img-fluid">
-            </div>
-            <div class="card-overlay card-overlay-hover">
-              <div class="card-header-d">
-                <div class="card-title-d align-self-center">
-                  <h3 class="title-d">
-                    <a href="agent-single.html" class="link-two">Nivel Secundario</a>
-                  </h3>
+          <div class="col-md-3">
+             <div class="card bg-light">
+                <img class="card-img-top" src="assets/img/cartelera.jpg" alt="Card image cap">
+                <div class="card-body">
+                   <h5 class="card-title border-bottom pb-3">Nivel Secundario</h5>
+                   <p class="card-text">Para chicos a partir de los 13 años.</p>
+                   <a href="#" class="btn btn-sm btn-info float-right">Leer más</a>
                 </div>
-              </div>
-              <div class="card-body-d">
-                <p class="content-d color-text-a">
-
-                </p>
-              </div>
-            </div>
+             </div>
           </div>
-        </div>        
-      </div>
+          <div class="col-md-3">
+             <div class="card bg-light">
+                <img class="card-img-top" src="assets/img/universitaria.jpg" alt="Card image cap">
+                <div class="card-body">
+                   <h5 class="card-title border-bottom pb-3">Nivel Universitario</h5>
+                   <p class="card-text">Convenio con Universidad Blas Pascal</p>
+                   <a href="#" class="btn btn-sm btn-info float-right">Leer más</a>
+                </div>
+             </div>
+          </div>                    
+       </div>        
     </div>
   </section>
   <!--/ Agents End /-->
@@ -194,48 +171,32 @@ $jobs  = PostData::getAllActive();
 
   <!--/ Testimonials Star /-->
   <section class="section-testimonials nav-arrow-a">
-    <div class="container center">      
-      <h1>Seguinos en nuestras Redes Sociales</h1>
-      <br>
-      <div class="socials-a">
-        <ul class="list-inline">
-          <li class="list-inline-item">
-            <a href="#">
-              <i class="fas fa fa-facebook" aria-hidden="true"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">
-              <i class="fas fa fa-twitter" aria-hidden="true"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">
-              <i class="fas fa fa-instagram" aria-hidden="true"></i>
-            </a>
-          </li>
-        </ul>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="container center">      
+          <h1 class="white">Seguinos en nuestras Redes Sociales</h1>
+          <br>
+          <div class="socials-a">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fas fa fa-facebook" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fas fa fa-twitter" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fas fa fa-instagram" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>        
       </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="subscribe-text mb-15">
-            <span>Suscribite a nuestro </span>
-            <h2>boletín de noticias</h2>
-          </div>
-        </div>
-        <div class="col-md-8">
-          <div class="subscribe-wrapper subscribe2-wrapper mb-15">
-            <div class="subscribe-form">
-              <form action="#">
-                <input placeholder="Ingresá tu Correo Electrónico" type="email">
-                <button>subscribe <i class="fas fa-long-arrow-alt-right"></i></button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>      
     </div>
   </section>
   <!--/ Testimonials End /-->

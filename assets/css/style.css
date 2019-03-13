@@ -4,7 +4,7 @@
 ======================================*/
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Questrial', sans-serif;
   color: #555555;
 }
 
@@ -29,13 +29,14 @@ a:hover {
 }
 
 .link-two {
-  color: #000000;
-  transition: all .5s ease;
+    color: #fdfdfd;
+    transition: all .5s ease;
+    background-color: #bd2130;
 }
 
 .link-two:hover {
-  text-decoration: underline;
   color: #000000;
+  background-color: #bd2130;
 }
 
 .link-one {
@@ -226,6 +227,7 @@ a:hover {
 
 .section-t8 {
   padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
 .section-t4 {
@@ -2059,6 +2061,7 @@ footer .credits {
 .section-testimonials {
     padding-top: 3em;
     padding-bottom: 3em;
+    background-image: url("../img/back.jpg");
 }
 .color-text-b {
     font-size: larger;
@@ -2128,4 +2131,61 @@ background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
 .subscribe2-wrapper .subscribe-form button i {
     font-size: 18px;
     padding-left: 5px;
+}
+.white {
+  color: #ffffff;
+  font-size: 25px;
+}
+.news-grid {
+    background-color: whitesmoke;
+}
+
+
+.social-card-header{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 96px;
+}
+.social-card-header i {
+    font-size: 32px;
+    color:#FFF;
+}
+.bg-facebook {
+    background-color:#3b5998;
+}
+.text-facebook {
+    color:#3b5998;
+}
+.bg-google-plus{
+    background-color:#dd4b39;
+}
+.text-google-plus {
+    color:#dd4b39;
+}
+.bg-twitter {
+    background-color:#1da1f2;
+}
+.text-twitter {
+    color:#1da1f2;
+}
+.bg-pinterest {
+    background-color:#bd081c;
+}
+.text-pinterest {
+    color:#bd081c;
+}
+.share:hover {
+        text-decoration: none;
+    opacity: 0.8;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 100%;
+    padding: 0.4em
 }

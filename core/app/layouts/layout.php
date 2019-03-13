@@ -22,7 +22,7 @@
   <link href="assets/lib/animate/animate.min.css" rel="stylesheet">
   <link href="assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lobster|Rubik|Shadows+Into+Light|Sniglet|Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Noto+Serif+JP|Questrial" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -62,9 +62,9 @@
               Niveles
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="property-single.html">Inicial</a>
-              <a class="dropdown-item" href="blog-single.html">Primario</a>
-              <a class="dropdown-item" href="agents-grid.html">Secundario</a>
+              <a class="dropdown-item" href="./?view=inicial">Inicial</a>
+              <a class="dropdown-item" href="./?view=primaria">Primario</a>
+              <a class="dropdown-item" href="./?view=iniciall">Secundario</a>
               <!--<a class="dropdown-item" href="agent-single.html">Agent Single</a> -->
             </div>
           </li>
