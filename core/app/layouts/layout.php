@@ -64,7 +64,7 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="./?view=inicial">Inicial</a>
               <a class="dropdown-item" href="./?view=primaria">Primario</a>
-              <a class="dropdown-item" href="./?view=iniciall">Secundario</a>
+              <a class="dropdown-item" href="./?view=secundaria">Secundario</a>
               <!--<a class="dropdown-item" href="agent-single.html">Agent Single</a> -->
             </div>
           </li>

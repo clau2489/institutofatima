@@ -59,7 +59,23 @@
                     </p>
                   </div>
                 </div>
-              </div>             
+              </div>
+              <div class="icon-box section-b2">
+                <div class="icon-box-icon">
+                  <span class="ion-ios-paper-plane"></span>
+                </div>
+                <div class="icon-box-content table-cell">
+                  <div class="icon-box-title">
+                    <h4 class="icon-title">Horarios de Atención</h4>
+                  </div>
+                  <div class="icon-box-content">
+                      <span class="color-a">Lunes a Viernes</span>
+                      <br>
+                      <span class="color-a">07:00 a 18:00hs Horario corrido</span>
+                    </p>
+                  </div>
+                </div>
+              </div>                           
             </div>            
             <div class="col-md-6">
               <form class="form-a contactForm" action="" method="post" role="form">

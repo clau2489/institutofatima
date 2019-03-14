@@ -2189,3 +2189,45 @@ background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
     width: 100%;
     padding: 0.4em
 }
+
+.carousel-indicators .active {
+    background-color: #bd2130;
+}
+
+.carousel {
+    background-color: #f8f9fa;
+}
+.carousel-indicators li {
+    position: relative;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: black;
+}
+
+
+.horario-title{
+    font-size: 4em;
+    font-family: fantasy;
+}
+
+.horario-hour {
+    font-size: 3em;
+    color: teal;
+}
+
+.section-hours {
+    background-color: brown;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.section-t1 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}

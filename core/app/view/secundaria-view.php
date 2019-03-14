@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-12 col-lg-8">
           <div class="title-single-box">
-            <h1 class="title-single">Educacion de Nivel Primario</h1>
+            <h1 class="title-single">Educacion de Nivel Secundario</h1>
           </div>
         </div>
       </div>
@@ -28,10 +28,7 @@
               <p class="color-text-a">
                 Desde la educación artística la primaria posee música y plástica de 1er a 6to año y además cuenta con el taller de Sikus. Sumado a esto, la escuela cuenta con una serie de proyectos que se ejecutan en el día a día y además con la asesoría del Equipo de Orientación Escolar conformado por una Lic. en psicopedagogía y una Lic. en psicología.  
               </p>
-              <br><br><br>
-              <h2>Autoridades</h2>
-              <p class="mb-1">Directora: <span class="icon-title">Fuggeta Daniela</span></p>
-              <p class="mb-1">Vice-Directora: <span class="icon-title">Arcardini Alejandra</span></p>              
+              <br><br><br>              
             </div>
           </div>
         </div>
@@ -39,6 +36,29 @@
     </div>
   </section>
   <!--/ About End /-->
+
+  <section class="section-t1">
+    <div class="container ">
+      <h2>Autoridades</h2>
+      <p class="mb-1">Directora: <span class="icon-title">Fuggeta Daniela</span></p>
+      <p class="mb-1">Vice-Directora: <span class="icon-title">Arcardini Alejandra</span></p>
+      <p class="mb-1">Directora: <span class="icon-title">Fuggeta Daniela</span></p>
+      <p class="mb-1">Vice-Directora: <span class="icon-title">Arcardini Alejandra</span></p>
+      <p class="mb-1">Directora: <span class="icon-title">Fuggeta Daniela</span></p>
+      <p class="mb-1">Vice-Directora: <span class="icon-title">Arcardini Alejandra</span></p>            
+    </div> 
+  </section>
+
+
+
+  <section class="section-hours section-t1">
+    <div class="container ">
+      <h1 class="horario-title"><i class="fa fa-calendar-o" aria-hidden="true"></i>Horario Nivel Secundario 2019</h1>
+      <h2 class="horario-hour">Ingreso: 7:05 am - Salida: 12:35 pm</h2>
+    </div> 
+  </section>
+
+
 
 <!--Carousel Wrapper-->
 <div id="carousel-with-lb" class="carousel slide carousel-multi-item section-t8" data-ride="carousel">

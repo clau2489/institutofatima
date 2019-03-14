@@ -74,8 +74,8 @@ $jobs  = PostData::getAllActive();
                 <img class="card-img-top" src="assets/img/cartelera.jpg" alt="Card image cap">
                 <div class="card-body">
                    <h5 class="card-title border-bottom pb-3">Nivel Secundario</h5>
-                   <p class="card-text">Para chicos a partir de los 13 años.</p>
-                   <a href="#" class="btn btn-sm btn-info float-right">Leer más</a>
+                   <p class="card-text">Orientación en Ciencias Sociales y Economía</p>
+                   <a href="#" class="./?view=secundaria">Leer más</a>
                 </div>
              </div>
           </div>
