@@ -72,7 +72,7 @@
             <a class="nav-link" href="./?view=contact">Contacto</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="property-grid.html">Universidad Blas Pascal</a>
+            <a class="nav-link" href="./?view=pascal">Universidad Blas Pascal</a>
           </li>                            
         </ul>
       </div>
