@@ -14,9 +14,9 @@
 .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
-    font-size: 16px;
+    font-size: 30px;
     -moz-osx-font-smoothing: grayscale;
-    color: #ce8007;
+    color: #000000;
 }
 .fas {
     font-size: 50px;

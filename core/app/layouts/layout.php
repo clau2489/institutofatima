@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>INSFA</title>
+  <title>Instituto Nuestra Señora de Fátima</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -33,7 +33,7 @@
   <!--/ Nav Star /-->
   <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
     <div class="container">
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"ata-target="#navbarDefault"
         aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
         <span></span>
@@ -53,23 +53,17 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="./?view=about">Nuestra Historia</a>
               <a class="dropdown-item" href="./?view=mision">Misión y Visión</a>
-              <!--<a class="dropdown-item" href="agent-single.html">Agent Single</a> -->
+              <a class="dropdown-item" href="./?view=mision">Representantes Legales</a>
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Niveles
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Niveles
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="./?view=inicial">Inicial</a>
               <a class="dropdown-item" href="./?view=primaria">Primario</a>
               <a class="dropdown-item" href="./?view=secundaria">Secundario</a>
-              <!--<a class="dropdown-item" href="agent-single.html">Agent Single</a> -->
             </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="property-grid.html">Blas Pascal</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./?view=blog">Proyectos</a>
@@ -77,11 +71,14 @@
           <li class="nav-item">
             <a class="nav-link" href="./?view=contact">Contacto</a>
           </li>
-          <div>
-            <img src="assets/img/25.png" style="width: 140px; text-align: center; margin-left: 3em;">
-          </div>                   
+          <li class="nav-item">
+            <a class="nav-link" href="property-grid.html">Universidad Blas Pascal</a>
+          </li>                            
         </ul>
       </div>
+      <div>
+        <img src="assets/img/25.png" style="width: 140px; text-align: center;">
+      </div> 
     </div>
   </nav>
   <!--/ Nav End /-->
@@ -99,9 +96,9 @@
           </div>          
         </div>
       </div>
-      <br><br>
+      <br>
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-12" style="text-align: center">
           <span class="text-copy">Aguero 724 Esq. Constitución</span>
           <br>
           <span class="text-copy">Marcos Paz - Pcia. Bs. As.</span>
@@ -110,72 +107,18 @@
           <br>
           <span class="text-copy">administracion@insfa.com.ar</span>
           <br><br>
-        </div>
-        <div class="col-md-3">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="style" href="./?view=about">Institucional</a>
-              </li>
-              <li class="nav-item">
-                <a class="style" href="./?view=agents">Autoridades</a>
-              </li>
-              <li class="nav-item">
-                <a class="style" href="property-grid.html">Plan Educativo</a>
-              </li>
-              <li class="nav-item">
-                <a class="style" href="./?view=blog">Proyectos</a>
-              </li>         
-              <li class="nav-item">
-                <a class="style" href="admin/index.php">Portal</a>
-              </li>          
-            </ul>
-        </div>
-        <div class="col-md-3">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="style" href="./?view=about">Institucional</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class=" style nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  Niveles
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="property-single.html">Inicial</a>
-                  <a class="dropdown-item" href="blog-single.html">Primario</a>
-                  <a class="dropdown-item" href="agents-grid.html">Secundario</a>
-                  <!--<a class="dropdown-item" href="agent-single.html">Agent Single</a> -->
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="style" href="property-grid.html">Blas Pascal</a>
-              </li>
-              <li class="nav-item">
-                <a class="style" href="./?view=blog">Proyectos</a>
-              </li>         
-              <li class="nav-item">
-                <a class="style" href="./?view=contact">Contacto</a>
-              </li>          
-            </ul>
         </div>                   
-        <div class="col-md-3">
-          <div class="row">
-            <div class="col-md-12">              
-              <p class="text-copy">2019 &copy;
-                <span class="text-copy">Instituto Ntra. Sra. de Fátima </span>
-                <p class="text-copy">Todos los derechos reservados</p>
-                <p class="text-copy">Sitio creado por <a href="http://www.oestedev.com"><img src="assets/img/oestedev.png" style="width: 60px;"></a></p>        
-            </div>                 
-          </div>          
-        </div>
+      </div>
+      <br><br>
+      <div class="row">
+        <div class="col-md-12" style="text-align: center">
+          <p class="text-copy">2019 &copy;
+          <span class="text-copy">Instituto Ntra. Sra. de Fátima </span>. Todos los derechos reservados</p>
+          <p class="text-copy">Sitio creado por <a href="http://www.oestedev.com"><img src="assets/img/oestedev.png" style="width: 80px;"></a></p>        
+        </div>                 
       </div>
     </div>
   </footer>
-
-  <!--/ Footer End /-->
-
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <div id="preloader"></div>
 
   <!-- JavaScript Libraries -->
   <script src="assets/lib/jquery/jquery.min.js"></script>

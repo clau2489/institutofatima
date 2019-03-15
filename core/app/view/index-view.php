@@ -1,22 +1,21 @@
   <?php
-$jobs  = PostData::getAllActive();
-?>
+    $jobs  = PostData::getAllActive();
+  ?>
+
   <!--/ Carousel Star /-->
-  <div class="intro intro-carousel">
+  <section class="intro intro-carousel">
     <div id="carousel" class="owl-carousel owl-theme">
       <div class="carousel-item-a intro-item bg-image" style="background-image: url(assets/img/frente1.jpg)">
         <div class="overlay overlay-a"></div>
-        <div class="intro-content display-table">
-        </div>
+        <div class="intro-content display-table"></div>
       </div>
       <div class="carousel-item-a intro-item bg-image" style="background-image: url(assets/img/frente2.jpg)">
         <div class="overlay overlay-a"></div>
-        <div class="intro-content display-table">
-        </div>
+        <div class="intro-content display-table"></div>
       </div>
       <div class="carousel-item-a intro-item bg-image" style="background-image: url(assets/img/frente3.jpg)">
         <div class="overlay overlay-a"></div>
-        <div class="intro-content display-table">          
+        <div class="intro-content display-table">
           <div class="table-cell">
             <div class="container">
               <div class="row">
@@ -29,11 +28,11 @@ $jobs  = PostData::getAllActive();
                 </div>
               </div>
             </div>
-          </div> -->
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
   <!--/ Carousel end /-->
 
   <!--/ Agents Star /-->
@@ -171,31 +170,33 @@ $jobs  = PostData::getAllActive();
 
   <!--/ Testimonials Star /-->
   <section class="section-testimonials nav-arrow-a">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="container center">      
-          <h1 class="white">Seguinos en nuestras Redes Sociales</h1>
-          <br>
-          <div class="socials-a">
-            <ul class="list-inline">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fas fa fa-facebook" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fas fa fa-twitter" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fas fa fa-instagram" aria-hidden="true"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>        
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="container center">      
+            <h1 class="white">Seguinos en nuestras Redes Sociales</h1>
+            <br>
+            <div class="socials-a">
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fas fa fa-facebook" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fas fa fa-twitter" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fas fa fa-instagram" aria-hidden="true"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>        
+        </div>
       </div>
     </div>
   </section>
