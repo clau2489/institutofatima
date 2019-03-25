@@ -17,7 +17,7 @@
       <div class="row">
         <div class="col-md-12">
           <p class="color-text-a">
-            Creemos que en los tiempos que corren debemos acompañar y desarrollar las habilidades que cada sujeto tenga fortaleciendo las positivas y transformando las negativas en positivas. 
+            Creemos que en los tiempos que corren debemos acompañar y desarrollar las habilidades que cada sujeto tenga fortaleciendo las positivas y transformando las negativas en positivas.  
           </p>
           <p class="color-text-a">
             Por esto mismo, nos proponemos constituir egresados capaces de resolver conflictos por la vía del diálogo, que posean un espíritu emprendedor de cooperación y solidario. Formamos a nuestros estudiantes para que sean sujetos autónomos, que tengan un equilibrio físico y mental generando así hábitos saludables en torno a la actividad física, buena alimentación y a su relación armónica con el entorno.
@@ -47,24 +47,15 @@
       <div class="row">
         <div class="col-md-12">
           <p class="color-text-a">
-            Nosotros como institución creemos que es necesario brindar un espacio en donde el saber sea lo fundamental, por eso nuestros docentes están siempre a la vanguardia en temas de pedagogía, tecnología y seguridad.  
+            Nosotros como institución creemos que es necesario brindar un espacio en donde el saber sea lo fundamental, por eso nuestros docentes están siempre a la vanguardia en temas de pedagogía, tecnología y seguridad.   
           </p>
           <p class="color-text-a">
-            Se busca que los alumnos crezcan y se desenvuelvan en un ambiente apto y con las condiciones necesarias que así lo demanden para favorecer las instancias de diálogo y respeto como así también generar la autonomía y creatividad para la resolución de todo tipo de problemáticas a partir de la autodisciplina y el crecimiento de la autoestima. Generando así un compromiso social con la comunidad basado en la educación de calidad. 
+            Se busca que los alumnos crezcan y se desenvuelvan en un ambiente apto y con las condiciones necesarias que así lo demanden para favorecer las instancias de diálogo y respeto como así también generar la autonomía y creatividad para la resolución de todo tipo de problemáticas a partir de la autodisciplina y el crecimiento de la autoestima. Generando así un compromiso social con la comunidad basado en la educación de calidad.  
           </p>
         </div>
       </div>
       <br>
-      <br>
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="horario-title">Autoridades</h2>
-          <p class="mb-1">Representantes Legales: <span class="icon-title">Nélida Guillermino, Inés Villar</span></p>
-          <p class="mb-1">Socio Gerente: <span class="icon-title">Eugenio Dioguardi</span></p>
-          <p class="mb-1">Secretaria: <span class="icon-title">Amelia Rodriguez</span></p>
-          <p class="mb-1">Administración: <span class="icon-title">Ignacio Guillermino</span></p>
-        </div>
-      </div>      
+      <br>      
     </div>
   </section>
   <!--/ Team End /-->

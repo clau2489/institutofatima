@@ -33,14 +33,14 @@
   <!--/ Nav Star /-->
   <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
     <div class="container">
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"ata-target="#navbarDefault"
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
         aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
         <span></span>
         <span></span>
       </button>
       <img src="assets/img/logo.jpg" width="70px">
-      <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
+      <div class="navbar-collapse collapse center" id="navbarDefault">
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link" href="./?view=index">Inicio</a>
@@ -65,7 +65,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./?view=blog">Proyectos</a>
+            <a class="nav-link" href="./?view=proyect">Proyectos</a>
           </li>         
           <li class="nav-item">
             <a class="nav-link" href="./?view=contact">Contacto</a>
@@ -74,9 +74,7 @@
             <a class="nav-link" href="./?view=pascal">Universidad Blas Pascal</a>
           </li>                            
         </ul>
-      </div>
-      <div>
-        <img src="assets/img/25.png" style="width: 140px; text-align: center;">
+        <img src="assets/img/25.png" style="width: 140px; padding-left: 1em;">
       </div> 
     </div>
   </nav>
@@ -91,7 +89,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="container center">
-            <img src="assets/img/10.jpg" style="width: 70%">
+            <img src="assets/img/10.jpg" style="width: 80%">
           </div>          
         </div>
       </div>

@@ -23,10 +23,10 @@
             </div>
             <div class="col-md-6">
               <p class="color-text-a">
-                Nuestra escuela cuenta con la los seis años de primaria y dos secciones para cada año. Además de los contenidos curriculares diseñados por la Dirección General de Cultura y Educación, el Instituto Nuestra Señora de Fátima ofrece la enseñanza de informática en los seis años y además inglés desde 1er grado dos horas semanales.  
+                Nuestra escuela cuenta con los seis años de primaria y dos secciones para cada año. Además de los contenidos curriculares diseñados por la Dirección General de Cultura y Educación, el Instituto Nuestra Señora de Fátima ofrece la enseñanza de en los seis años y además inglés desde 1er grado. Ambas asignaturas con dos horas semanales.  Es fundamental recalcar el trabajo en el área de computación en el segundo ciclo sobre el uso de las NTCx y las redes sociales.   
               </p>
               <p class="color-text-a">
-                Desde la educación artística la primaria posee música y plástica de 1er a 6to año y además cuenta con el taller de Sikus. Sumado a esto, la escuela cuenta con una serie de proyectos que se ejecutan en el día a día y además con la asesoría del Equipo de Orientación Escolar conformado por una Lic. en psicopedagogía y una Lic. en psicología.  
+                Desde la educación artística la primaria posee música y plástica de 1er a 6to año y además cuenta con el taller de Sikus. Sumado a esto, la escuela cuenta con una serie de proyectos que se ejecutan en el día a día y además con la asesoría del Equipo de Orientación Escolar conformado por una Lic. en psicopedagogía y una Lic. en psicología.   
               </p>
               <br><br><br>              
             </div>
@@ -49,26 +49,27 @@
               <p class="mb-1">Secretaria: <span class="icon-title">Granara Verónica</span></p>
               <br><br>
               <h2 class="horario-title">Equipo Docente</h2>
-              <p class="mb-1">Maestra de Primario: <span class="icon-title">Chanquet Gimena</span></p>
-              <p class="mb-1">Maestra de Primario: <span class="icon-title">Alario Sandra</span></p>
-              <p class="mb-1">Maestra de Primario: <span class="icon-title">Cóceres Flavia</span></p>
-              <p class="mb-1">Maestra de Primario: <span class="icon-title">Vallejos Verónica</span></p>
-              <p class="mb-1">Maestra de Primario: <span class="icon-title">Chaparro Carla</span></p>
-              <p class="mb-1">Maestra de Primario: <span class="icon-title">Leguizamon Marcela</span></p>
-              <p class="mb-1">Maestra de Primario: <span class="icon-title">Sanni Gabriela</span></p>
-              <p class="mb-1">Maestra de Primario: <span class="icon-title">Roffi Daniela</span></p>
-              <p class="mb-1">Maestra de Primario: <span class="icon-title">Alvarez Alejandra</span></p>
-              <p class="mb-1">Maestra de Primario: <span class="icon-title">Dorola María Emilia</span></p>
-              <p class="mb-1">Maestra de Primario: <span class="icon-title">González Elizabeth</span></p>
-              <p class="mb-1">Maestra de Primario: <span class="icon-title">Osuna Luciana</span></p>
-              <p class="mb-1">Maestra de Primario: <span class="icon-title">Correa Karina</span></p>
-              <p class="mb-1">Prof. Educ. Física: <span class="icon-title">Rinaldini Sebastían, Vilas Martín, Arcardini Mariano</span></p>
+              <span class="icon-title">
+                Allario, Sandra <br>
+                Álvarez, Alejandra <br>
+                Chanquet, Gimena<br>
+                Chaparro, Carla<br>
+                Cóceres, Flavia<br>
+                Correa, Karina<br>
+                Dorola, María Emilia<br>
+                González, Elizabeth<br>
+                Leguizamón, Marcela<br>
+                Osuna, Luciana<br>
+                Roffi, Daniela<br>
+                Sani, Gabriela<br>
+                Vallejos, Verónica<br>
+              </span>
               <p class="mb-1">Prof. Música: <span class="icon-title">Dianda Evangelina, Chiavone Flavio</span></p>
               <p class="mb-1">Prof. Artística: <span class="icon-title">Sala Natalia</span></p>
               <p class="mb-1">Prof. Inglés: <span class="icon-title">Barreto Kramer Maria victoria, Mcloughin Verónica, Fuggeta Daniela</span></p>
               <p class="mb-1">Prof. Computación: <span class="icon-title">Maidana Xoana, Torres Lorena</span></p>
               <h2 class="horario-title">Auxiliares</h2>
-              <p class="mb-1"><span class="icon-title">Monserrat Cristina, Maran Diana</span></p>
+              <p class="mb-1"><span class="icon-title">Lezcano, Diana- Monserrat, Cristina</span></p>
             </div>
           </div>
         </div>

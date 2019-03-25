@@ -23,10 +23,10 @@
             </div>
             <div class="col-md-6">
               <p class="color-text-a">
-                El nivel inicial está compuesto por seis secciones, dos en el turno mañana y 4 en el turno tarde. En lo que respecta a las actividades extra curriculares que se desarrollan en el día a día del jardín cuenta con la enseñanza de computación desde sala rosa (2/3 años) e inglés desde la sala amarilla (4 años).  
+                El nivel inicial está compuesto por seis secciones, dos en el turno mañana y 4 en el turno tarde. En lo que respecta a las actividades extra curriculares que se desarrollan en el día a día del jardín cuenta con la enseñanza de computación desde sala rosa (2/3 años) e inglés desde la sala amarilla (4 años). En 2019, comenzó el proyecto de las salas multiedad, teniendo dos en el turno mañana: sala rosa con niños de 2 y 3 años, y sala amarilla de 4 y 5 años. En el turno tarde la sala rosa (3 años), amarilla (4 años) y azul (5 años) mantuvieron la estructura original, mientras que la sala naranja se convirtió también en multiedad (4 y 5 años) 
               </p>
               <p class="color-text-a">
-                En términos de infraestrutura, el jardín cuenta con un salón de usos múltiples, sólo para este nivel, biblioteca y parque preparado para que los infantes tengan una experiencia gratificante y logren aprender jugando.  
+                En términos de infraestrutura, el jardín cuenta con un salón de usos múltiples sólo para este nivel, biblioteca y parque preparado para que los infantes tengan una experiencia gratificante y logren aprender experimentando y jugando.    
               </p>
               <br><br><br>              
             </div>
@@ -45,14 +45,21 @@
             <div class="col-md-12">
               <h2 class="horario-title">Equipo Directivo</h2>
               <p class="mb-1">Directora: <span class="icon-title">Garitonandia Silvana</span></p>
-              <p class="mb-1">Preceptores: <span class="icon-title">Ballesteros Agustina, Chianelli Gisela, Villalba Natalia</span></p>
-              <br><br>
+              <h2 class="horario-title">Preceptoras</h2>
+              <span class="icon-title">
+                Ballesteros, Agustina<br>
+                Chianelli, Gisela<br>
+                Villalba, Natalia<br>
+              </span>
+              <br>
               <h2 class="horario-title">Equipo Docente</h2>
-              <p class="mb-1">Maestra Inicial: <span class="icon-title">Mcloughlin Luciana</span></p>
-              <p class="mb-1">Maestra Inicial: <span class="icon-title">Rodriguez Cecilia</span></p>
-              <p class="mb-1">Maestra Inicial: <span class="icon-title">Ballesteros Agustina</span></p>
-              <p class="mb-1">Maestra Inicial: <span class="icon-title">Gutierrez Daniela</span></p>
-              <p class="mb-1">Maestra Inicial: <span class="icon-title">Coria Natalia</span></p>
+              <span class="icon-title">
+                Ballesteros, Agustina<br>
+                Coria, Natalia<br>
+                Gutierrez, Daniela<br>
+                Mcloughlin, Luciana<br>
+                Rodriguez, Cecilia<br>
+              </span>
               <p class="mb-1">Prof. Educ. Física: <span class="icon-title">Maria Soledad, Vilas Martín</span></p>
               <p class="mb-1">Prof. Música: <span class="icon-title">González Agustín</span></p>
               <p class="mb-1">Prof. Inglés: <span class="icon-title">Cabrera Débora</span></p>
