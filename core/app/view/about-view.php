@@ -18,11 +18,10 @@
       <div class="row">
         <div class="col-md-12">
           <div class="row">
-            <div class="col-md-12">
-              <img src="assets/img/1.jpg" alt="" class="img-fluid">
+            <div class="col-md-4">
+              <img src="assets/img/historia.jpg" alt="" class="img-fluid">
             </div>
-            <div class="col-md-12">
-              <br><br><br>
+            <div class="col-md-8">
               <p class="color-text-a">
                 Hace 25 años, un grupo de docentes decidió reunirse y fundar una escuela. Con el objetivo de satisfacer la creciente demanda en el distrito y además, brindarle a la comunidad un espacio de encuentro, saberes y de formación para niños, niñas y adolescentes.
               </p>

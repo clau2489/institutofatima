@@ -42,147 +42,56 @@
       <div class="row">
         <div class="col-md-12">
           <div class="row">
-            <div class="col-md-6">
-              <h2 class="horario-title">Autoridades</h2>
-              <p class="mb-1">Directora: <span class="icon-title">Marciano Jorgelina</span></p>
-              <p class="mb-1">Vice-Directora: <span class="icon-title">Mariñasky Belén</span></p>
-              <p class="mb-1">Preceptora: <span class="icon-title">Granara Verónica</span></p>            
+            <div class="col-md-12">
+              <h2 class="horario-title">Equipo Directivo</h2>
+              <p class="mb-1">Directora: <span class="icon-title">Marciano Maria Jorgelina</span></p>
+              <p class="mb-1">Vice-Directora: <span class="icon-title">Mariñasky Ana Belén</span></p>
+              <p class="mb-1">Secretaria: <span class="icon-title">Granara Verónica</span></p>
+              <br><br>
+              <h2 class="horario-title">Equipo Docente</h2>
+              <p class="mb-1">Maestra de Primario: <span class="icon-title">Chanquet Gimena</span></p>
+              <p class="mb-1">Maestra de Primario: <span class="icon-title">Alario Sandra</span></p>
+              <p class="mb-1">Maestra de Primario: <span class="icon-title">Cóceres Flavia</span></p>
+              <p class="mb-1">Maestra de Primario: <span class="icon-title">Vallejos Verónica</span></p>
+              <p class="mb-1">Maestra de Primario: <span class="icon-title">Chaparro Carla</span></p>
+              <p class="mb-1">Maestra de Primario: <span class="icon-title">Leguizamon Marcela</span></p>
+              <p class="mb-1">Maestra de Primario: <span class="icon-title">Sanni Gabriela</span></p>
+              <p class="mb-1">Maestra de Primario: <span class="icon-title">Roffi Daniela</span></p>
+              <p class="mb-1">Maestra de Primario: <span class="icon-title">Alvarez Alejandra</span></p>
+              <p class="mb-1">Maestra de Primario: <span class="icon-title">Dorola María Emilia</span></p>
+              <p class="mb-1">Maestra de Primario: <span class="icon-title">González Elizabeth</span></p>
+              <p class="mb-1">Maestra de Primario: <span class="icon-title">Osuna Luciana</span></p>
+              <p class="mb-1">Maestra de Primario: <span class="icon-title">Correa Karina</span></p>
+              <p class="mb-1">Prof. Educ. Física: <span class="icon-title">Rinaldini Sebastían, Vilas Martín, Arcardini Mariano</span></p>
+              <p class="mb-1">Prof. Música: <span class="icon-title">Dianda Evangelina, Chiavone Flavio</span></p>
+              <p class="mb-1">Prof. Artística: <span class="icon-title">Sala Natalia</span></p>
+              <p class="mb-1">Prof. Inglés: <span class="icon-title">Barreto Kramer Maria victoria, Mcloughin Verónica, Fuggeta Daniela</span></p>
+              <p class="mb-1">Prof. Computación: <span class="icon-title">Maidana Xoana, Torres Lorena</span></p>
+              <h2 class="horario-title">Auxiliares</h2>
+              <p class="mb-1"><span class="icon-title">Monserrat Cristina, Maran Diana</span></p>
             </div>
-            <br>
-            <div class="col-md-6">
-              <h1 class="horario-title"><i class="fa fa-calendar-o" aria-hidden="true"></i>  Horarios Primario 2019</h1>
-              <h2 class="horario-hour"><i class="fa fa-sign-in" aria-hidden="true"></i>   Ingreso: 13:00hs</h2>
-              <h2 class="horario-hour"><i class="fa fa-sign-out" aria-hidden="true"></i>  Salida: 17:30hs</h2>
-              <p class="mb-1"><span class="icon-title">Los niños solo pueden ser retirados por sus padres o solo con autorizacion firmada.</span></p> 
-            </div>            
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!--Carousel Wrapper-->
-  <section id="carousel-with-lb" class="carousel slide carousel-multi-item section-t8 carousel-group" data-ride="carousel">
-    <!--/.Controls-->
+  <section class="horarios section-t1">
     <div class="container">
-      <div class="row">
+      <div class="row ">               
         <div class="col-md-12">
-          <h3 class="horario-title" style="text-align: center">Equipo Docente</h3>
-        </div>
-      </div>
-      <br>
-      <br>
-      <!--Indicators-->
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-with-lb" data-slide-to="0" class="active secondary-color"></li>
-        <li data-target="#carousel-with-lb" data-slide-to="1" class="secondary-color"></li>
-        <li data-target="#carousel-with-lb" data-slide-to="2" class="secondary-color"></li>
-      </ol>
-      <!--/.Indicators-->
-      <!--Slides and lightbox-->
-
-      <div class="carousel-inner mdb-lightbox" role="listbox">
-        <div id="mdb-lightbox-ui"></div>
-        <!--First slide-->
-        <div class=" carousel-item active text-center">
-          <div class="row">
-            <figure class="col-md-3 d-md-inline-block">
-              <img src="assets/img/secundaria/1.jpg" class="rounded-circle">
-              <h2>Daniela Fuggeta</h2>
-              <p>Directora</p>
-              <p>Directora Nivel Secundario</p>
-            </figure>
-            <figure class="col-md-3 d-md-inline-block">
-              <img src="assets/img/secundaria/2.jpg" class="rounded-circle">
-              <h2>Romina Ferraro</h2>
-              <p>Profesora</p>
-              <p>Lengua y Literatura</p>
-            </figure>
-            <figure class="col-md-3 d-md-inline-block">
-              <img src="assets/img/secundaria/3.jpg" class="rounded-circle">
-              <h2>Natalia Chianelli</h2>
-              <p>Prof. Psicología, Salud y Adolescencia, Habilidades Cognitivas</p>
-            </figure>
-            <figure class="col-md-3 d-md-inline-block">
-              <img src="assets/img/secundaria/4.jpg" class="rounded-circle">
-              <h2>Lucía Juarez</h2>
-              <p>Profesora</p>
-              <p>Inglés</p>
-            </figure>             
-          </div>               
-        </div>
-        <!--/.First slide-->
-
-        <!--Second slide-->
-        <div class="carousel-item text-center">
-          <div class="row">
-            <figure class="col-md-3 d-md-inline-block">
-              <img src="assets/img/secundaria/1.jpg" class="rounded-circle">
-              <h2>Daniela Fuggeta</h2>
-              <p>Directora</p>
-              <p>Directora Nivel Secundario</p>
-            </figure>
-            <figure class="col-md-3 d-md-inline-block">
-              <img src="assets/img/secundaria/2.jpg" class="rounded-circle">
-              <h2>Romina Ferraro</h2>
-              <p>Profesora</p>
-              <p>Lengua y Literatura</p>
-            </figure>
-            <figure class="col-md-3 d-md-inline-block">
-              <img src="assets/img/secundaria/3.jpg" class="rounded-circle">
-              <h2>Natalia Chianelli</h2>
-              <p>Prof. Psicología, Salud y Adolescencia, Habilidades Cognitivas</p>
-            </figure>
-            <figure class="col-md-3 d-md-inline-block">
-              <img src="assets/img/secundaria/4.jpg" class="rounded-circle">
-              <h2>Lucía Juarez</h2>
-              <p>Profesora</p>
-              <p>Inglés</p>
-            </figure>             
-          </div>
-        </div>
-        <!--/.Second slide-->
-
-        <!--Third slide-->
-        <div class="carousel-item text-center">
-          <div class="row">
-            <figure class="col-md-3 d-md-inline-block">
-              <img src="assets/img/secundaria/1.jpg" class="rounded-circle">
-              <h2>Daniela Fuggeta</h2>
-              <p>Directora</p>
-              <p>Directora Nivel Secundario</p>
-            </figure>
-            <figure class="col-md-3 d-md-inline-block">
-              <img src="assets/img/secundaria/2.jpg" class="rounded-circle">
-              <h2>Romina Ferraro</h2>
-              <p>Profesora</p>
-              <p>Lengua y Literatura</p>
-            </figure>
-            <figure class="col-md-3 d-md-inline-block">
-              <img src="assets/img/secundaria/3.jpg" class="rounded-circle">
-              <h2>Natalia Chianelli</h2>
-              <p>Prof. Psicología, Salud y Adolescencia, Habilidades Cognitivas</p>
-            </figure>
-            <figure class="col-md-3 d-md-inline-block">
-              <img src="assets/img/secundaria/4.jpg" class="rounded-circle">
-              <h2>Lucía Juarez</h2>
-              <p>Profesora</p>
-              <p>Inglés</p>
-            </figure>             
-          </div>
-        </div>
-        <!--/.Third slide-->
-      </div>
-      <!--/.Slides-->      
+        <h1 class="horario-title"><i class="fa fa-calendar-o" aria-hidden="true"></i>  Horarios Primario</h1>
+        <h2 class="horario-hour"><i class="fa fa-sign-in" aria-hidden="true"></i>   Ingreso: 13:00hs</h2>
+        <h2 class="horario-hour"><i class="fa fa-sign-out" aria-hidden="true"></i>  Salida: 17:30hs</h2>                
+        </div>                           
+      </div>      
     </div>
   </section>
-  <!--/.Carousel Wrapper-->
-
 
   <!--Carousel Wrapper-->
   <section id="carousel-with-lb" class="carousel slide carousel-multi-item section-t8" data-ride="carousel">
     <!--/.Controls-->
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
           <h3 class="horario-title" style="text-align: center">Galería de Fotos</h3>
@@ -204,28 +113,28 @@
         <!--First slide-->
         <div class=" carousel-item active text-center">
           <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(2).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(2).jpg" class="img-fluid">
+            <a href="assets/img/gallery1.jpg" data-size="1600x1067">
+              <img src="assets/img/gallery1.jpg" class="img-fluid">
             </a>
           </figure>
           <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(4).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(4).jpg" class="img-fluid">
+            <a href="assets/img/gallery2.jpg" data-size="1600x1067">
+              <img src="assets/img/gallery2.jpg" class="img-fluid">
             </a>
           </figure>
           <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(6).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(6).jpg" class="img-fluid">
+            <a href="assets/img/gallery3.jpg" data-size="1600x1067">
+              <img src="assets/img/gallery3.jpg" class="img-fluid">
             </a>
           </figure>
           <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(10).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(10).jpg" class="img-fluid">
+            <a href="assets/img/gallery4.jpg" data-size="1600x1067">
+              <img src="assets/img/gallery4.jpg" class="img-fluid">
             </a>
           </figure>
           <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(12).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(12).jpg" class="img-fluid">
+            <a href="assets/img/gallery5.jpg" data-size="1600x1067">
+              <img src="assets/img/gallery5.jpg" class="img-fluid">
             </a>
           </figure>
         </div>

@@ -5,15 +5,15 @@
   <!--/ Carousel Star /-->
   <section class="intro intro-carousel">
     <div id="carousel" class="owl-carousel owl-theme">
-      <div class="carousel-item-a intro-item bg-image" style="background-image: url(assets/img/frente1.jpg)">
+      <div class="carousel-item-a intro-item bg-image" style="background-image: url(assets/img/slide1.jpg)">
         <div class="overlay overlay-a"></div>
         <div class="intro-content display-table"></div>
       </div>
-      <div class="carousel-item-a intro-item bg-image" style="background-image: url(assets/img/frente2.jpg)">
+      <div class="carousel-item-a intro-item bg-image" style="background-image: url(assets/img/slidera.jpg)">
         <div class="overlay overlay-a"></div>
         <div class="intro-content display-table"></div>
       </div>
-      <div class="carousel-item-a intro-item bg-image" style="background-image: url(assets/img/frente3.jpg)">
+      <div class="carousel-item-a intro-item bg-image" style="background-image: url(assets/img/sliderb.jpg)">
         <div class="overlay overlay-a"></div>
         <div class="intro-content display-table">
           <div class="table-cell">
@@ -53,7 +53,7 @@
                 <img class="card-img-top" src="assets/img/inicial.jpg">
                 <div class="card-body">
                    <h5 class="card-title border-bottom pb-3">Nivel Inicial</h5>
-                   <p class="card-text">Jardin de Infantes para niños de 2,3,4 y 5 años.</p>
+                   <p class="card-text">Jardin de Infantes a partir de los 2 años.</p>
                    <a href="./?view=inicial" class="btn btn-sm btn-info float-right">Leer más</a>
                 </div>
              </div>
@@ -63,7 +63,7 @@
                 <img class="card-img-top" src="assets/img/primaria.jpg" alt="Card image cap">
                 <div class="card-body">
                    <h5 class="card-title border-bottom pb-3">Nivel Primario</h5>
-                   <p class="card-text">Para niños a partir de los 6 años.</p>
+                   <p class="card-text">A partir de los 6 años.</p>
                    <a href="./?view=primaria" class="btn btn-sm btn-info float-right">Leer más</a>
                 </div>
              </div>
@@ -73,7 +73,7 @@
                 <img class="card-img-top" src="assets/img/cartelera.jpg" alt="Card image cap">
                 <div class="card-body">
                    <h5 class="card-title border-bottom pb-3">Nivel Secundario</h5>
-                   <p class="card-text">Orientación en Ciencias Sociales y Economía</p>
+                   <p class="card-text">Orientación en Humanidades y Cs. Sociales y Economia y Gestión de las Organizaciones</p>
                    <a href="#" class="./?view=secundaria">Leer más</a>
                 </div>
              </div>

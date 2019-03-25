@@ -53,7 +53,6 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="./?view=about">Nuestra Historia</a>
               <a class="dropdown-item" href="./?view=mision">Misión y Visión</a>
-              <a class="dropdown-item" href="./?view=mision">Representantes Legales</a>
             </div>
           </li>
           <li class="nav-item dropdown">
@@ -99,11 +98,11 @@
       <br>
       <div class="row">
         <div class="col-md-12" style="text-align: center">
-          <span class="text-copy">Aguero 724 Esq. Constitución</span>
+          <span class="text-copy">Aguero 792 Esq. Constitución</span>
           <br>
           <span class="text-copy">Marcos Paz - Pcia. Bs. As.</span>
           <br>
-          <span class="text-copy">(0220)-477-5889</span>
+          <span class="text-copy">(0220)-477-4414/ 0979</span>
           <br>
           <span class="text-copy">administracion@insfa.com.ar</span>
           <br><br>

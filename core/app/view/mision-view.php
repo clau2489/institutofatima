@@ -40,6 +40,8 @@
       </div>
     </div>
   </section>
+  <!--/ Team End /-->
+  <!--/ Intro Single star /-->  
   <section class="section-agents">
     <div class="container">
       <div class="row">
@@ -52,6 +54,17 @@
           </p>
         </div>
       </div>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="horario-title">Autoridades</h2>
+          <p class="mb-1">Representantes Legales: <span class="icon-title">Nélida Guillermino, Inés Villar</span></p>
+          <p class="mb-1">Socio Gerente: <span class="icon-title">Eugenio Dioguardi</span></p>
+          <p class="mb-1">Secretaria: <span class="icon-title">Amelia Rodriguez</span></p>
+          <p class="mb-1">Administración: <span class="icon-title">Ignacio Guillermino</span></p>
+        </div>
+      </div>      
     </div>
   </section>
   <!--/ Team End /-->

@@ -2218,8 +2218,12 @@ background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
     padding-top: 1em;
 }
 .horario-hour {
-    font-size: 1.8em;
+    font-size: 1.5em;
     color: black;
+}
+
+.horarios {
+    background-color: lightgoldenrodyellow;
 }
 
 .section-hours {
