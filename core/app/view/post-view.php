@@ -7,9 +7,9 @@ $jb  = PostData::getById($_GET["id"]);
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h1 class="title-news"><?php echo $jb->title; ?></h1>
-        <br><br>
-        <span class="color-text-a"><h4 class="subtitle"><?php echo $jb->brief; ?></h4></span>        
+        <h1 class="title-new"><?php echo $jb->title; ?></h1>
+        <br>
+        <span class="date-b"><h4 class="subtitle"><?php echo $jb->brief; ?></h4></span>        
       </div>
     </div>
     <div class="row">

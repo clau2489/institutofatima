@@ -3,7 +3,7 @@
  * ----------
  */
 .skin-blue-light .main-header .navbar {
-    background-color: #961707;
+    background-color: #5a0309;
 }
 .skin-blue-light .main-header .navbar .nav > li > a {
   color: #ffffff;
@@ -42,7 +42,7 @@
   }
 }
 .skin-blue-light .main-header .logo {
-    background-color: #961707;
+    background-color: #5a0309;
     color: #ffffff;
     border-bottom: 0px solid transparent;
 }
@@ -56,7 +56,7 @@
   background: transparent;
 }
 .skin-blue-light .wrapper, .skin-blue-light .main-sidebar, .skin-blue-light .left-side {
-    background-color: #961707;
+    background-color: #5a0309;
 }
 .skin-blue-light .content-wrapper,
 .skin-blue-light .main-footer {

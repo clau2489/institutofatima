@@ -19,9 +19,9 @@
         <div class="col-md-12">
           <div class="row">
             <div class="col-md-6">
-              <img src="assets/img/3.jpg" alt="" class="img-fluid">
+              <img src="assets/img/secundario.jpg" alt="" class="img-fluid">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 parraf">
               <p class="color-text-a">
                 El nivel secundario tanto como con el nivel básico como con el nivel superior. En lo que respecta al básico (1º, 2º y 3º año) los dos primeros años están bajo el régimen de la nueva secundaria, mientras que el último año del ciclo básico continua con el modelo de secundaria propuesto en la resolución   de 2006.   
               </p>
@@ -40,73 +40,66 @@
   </section>
   <!--/ About End /-->
 
-  <section class="section-about section-t8" style="text-align: center">
+  <section class="section-t8 prof">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="row">
             <div class="col-md-12">
               <h2 class="horario-title">Equipo Directivo</h2>
-              <p class="mb-1">Directora: <span class="icon-title">Fuggetta Daniela</span></p>
-              <p class="mb-1">Vice-Directora: <span class="icon-title">Arcardini Alejandra</span></p>
-              <p class="mb-1">Secretario: <span class="icon-title">Vilas Martín</span></p>
-              <p class="mb-1">Preceptores: <span class="icon-title">Merino Leandro, Correa Karina, Chiavone Flavio, Granara Verónica</span></p>
-              <br><br>
+              <span class="icon-title">
+                Directora: Fuggetta Daniela <br>
+                Vice-Directora: Arcardini, Alejandra</span>
+              <h2 class="horario-title">Secretario</h2>
+              <span class="icon-title">
+                Vilas Martín<br>
+              </span>
+              <h2 class="horario-title">Jefe de Preceptores</h2>
+              <span class="icon-title">
+                Chanquet Martha Hebe<br>
+              </span>
+              <h2 class="horario-title">Preceptores</h2>
+              <span class="icon-title">
+                Granara Verónica - Chiavone Flavio - Correa Karina - Merino Leandro<br>
+              </span>               
+              <br>
               <h2 class="horario-title">Equipo Docente</h2>
-
-              <p class="mb-1">Directora: <span class="icon-title">
-Arcardini, Mariano: Prof. de Educación Física <br>
-Barreto Krämer, Victoria: Prof de Comunicación, cultura y sociedad- Inglés<br>
-Bielli, Paula: Prof. De Ciencias Naturales<br>
-Biondi, Romina: Prof. de Inglés<br>
-Buchaca, Valeria: Prof. de Geografía<br>
-Carreras, Cristina- Prof. De Ciencias sociales- Construcción de la ciudadanía- Historia<br>
-Chianelli, Natalia: Prof. de Psicología- Habilidades Cognitivas- Salud y adolescencia<br>
-Del Bene, Rodolfo: Prof. de Historia- Proyecto de investigación en ciencias sociales<br>
-Dianda, Evangelina: Prof. de Educación artística (música)<br>
-Dioguardi, Florencia: Prof. de Inglés<br>
-Fabre, Ezequiel: Prof. de Historia- Construcción de la ciudadanía- Política y ciudadanía<br>
-Ferraro, Romina: Prof. de Prácticas del lenguaje- Literatura<br>
-Fillipelli, Juan: Prof. de Filosofía<br>
-Franceschini, Alejandra: Prof. de Prácticas del lenguaje- Literatura<br>
-Frighetto, Laura: Prof. de Matemática<br>
-Juárez, Lucía: Prof. de Inglés<br>
-Juárez, Natalia: Prof. de Prácticas del lenguaje- Literatura<br>
-Larraquy, Javier: Prof. De Biología- Salud y adolescencia<br>
-Maidana, Xoana: Prof. de informática<br>
-Marciano, Jorgelina: Prof. de Prácticas del lenguaje<br>
-María, Soledad: Prof. de Educación Física.<br>
-Molina, Pablo: Prof. de Matemática- Introducción a la física- Fisicoquímica<br>
-Nicolini, María Eugenia: Prof. de Sistema de información contable- Teoría de las organizaciones- Gestión organizacional- Proyecto organizacional.<br>
-Nobilia, Gabriel: Prof. De Fisicoquímica- Introducción a la física y matemática<br>
-Pineda, Nahuel: Prof. de Geografía<br>
-Rifrán, Verónica: Prof. de Matemática<br>
-Sala, Natalia: Prof. de Educación artística (plástica) – Arte<br>
-Vassallo, Gisele: Prof. de Matemática- Construcción de la ciudadanía<br>
-Vilaro, Daniela: Prof. de Economía política- Trabajo y Ciudadanía- Derecho- Política y Ciudadanía- Elementos de micro y macro economía<br>
-Vilche: Prof. de Ntix- Informática<br>
-</span></p>
-
-
-
-
-
-              <p class="mb-1">Ciencias Sociales: <span class="icon-title">Carreras Cristina</span></p>
-              <p class="mb-1">Ciencias Naturales: <span class="icon-title">Bielli Paula</span></p>
-              <p class="mb-1">Matemáticas: <span class="icon-title">Molina Pablo, Rifrán Verónica</span></p>
-              <p class="mb-1">Prácticas del Lenguaje: <span class="icon-title">Marciano Jorgelina, Franceschini Alejandra</span></p>
-              <p class="mb-1">Construccion de la Ciudadania: <span class="icon-title">Vassalo Gisele</span></p>
-              <p class="mb-1">Biología: <span class="icon-title">Larraquy Javier</span></p>
-              <p class="mb-1">Fisico-Quimica: <span class="icon-title">Nobilia Gabriel</span></p>
-              <p class="mb-1">Geografía: <span class="icon-title">Geografía</span></p>              
-              <p class="mb-1">Prof. Educ. Física: <span class="icon-title">Maria Soledad, Arcardini Mariano</span></p>
-              <p class="mb-1">Prof. Música: <span class="icon-title">González Agustín</span></p>
-              <p class="mb-1">Prof. Inglés: <span class="icon-title">Barreto Kramer Maria victoria, Dioguardi Florencia, Biondi Romina</span></p>
-              <p class="mb-1">Prof. Computación: <span class="icon-title">Maidana Xoana, Vilche María Alejandra</span></p>
+              <span class="icon-title">
+                Arcardini Mariano: Prof. de Educación Física<br>
+                Barreto Krämer Victoria: Prof de Comunicación, cultura y sociedad- Inglés<br>
+                Bielli Paula: Prof. De Ciencias Naturales<br>
+                Biondi Romina: Prof. de Inglés<br>
+                Buchaca Valeria: Prof. de Geografía<br>
+                Carreras Cristina- Prof. De Ciencias sociales- Construcción de la ciudadanía- Historia<br>
+                Chianelli Natalia: Prof. de Psicología- Habilidades Cognitivas- Salud y adolescencia<br>
+                Del Bene Rodolfo: Prof. de Historia- Proyecto de investigación en ciencias sociales<br>
+                Dianda Evangelina: Prof. de Educación artística (música)<br>
+                Dioguardi Florencia: Prof. de Inglés<br>
+                Fabre Ezequiel: Prof. de Historia- Construcción de la ciudadanía- Política y ciudadanía<br>
+                Ferraro Romina: Prof. de Prácticas del lenguaje- Literatura<br>
+                Fillipelli Juan: Prof. de Filosofía<br>
+                Franceschini Alejandra: Prof. de Prácticas del lenguaje- Literatura<br>
+                Frighetto Laura: Prof. de Matemática<br>
+                Juárez Lucía: Prof. de Inglés<br>
+                Juárez Natalia: Prof. de Prácticas del lenguaje- Literatura<br>
+                Larraquy Javier: Prof. De Biología- Salud y adolescencia<br>
+                Maidana Xoana: Prof. de informática<br>
+                Marciano Jorgelina: Prof. de Prácticas del lenguaje<br>
+                María Soledad: Prof. de Educación Física.<br>
+                Molina Pablo: Prof. de Matemática- Introducción a la física- Fisicoquímica<br>
+                Nicolini María Eugenia: Prof. de Sistema de información contable- Teoría de las organizaciones- Gestión organizacional- Proyecto organizacional.<br>
+                Nobilia Gabriel: Prof. De Fisicoquímica- Introducción a la física- Introducción a la química<br>
+                Pineda Nahuel: Prof. de Geografía<br>
+                Rifrán Verónica: Prof. de Matemática<br>
+                Sala Natalia: Prof. de Educación artística (plástica) – Arte<br>
+                Vassallo Gisele: Prof. de Matemática- Construcción de la ciudadanía<br>
+                Vilaro Daniela: Prof. de Economía política- Trabajo y Ciudadanía- Derecho- Política y Ciudadanía- Elementos de micro y macro economía<br>
+                Vilche Alejandra: Prof. de Ntix- Informática<br>
+              </span>
               <h2 class="horario-title">Equipo de Orientación Escolar</h2>
-              <p class="mb-1"><span class="icon-title">Lic. Ortiz Mariela </span></p>
+              <span class="icon-title">Lic. Ortiz Mariela - Lic. Chianelli Natalia</span></p>
               <h2 class="horario-title">Auxiliares</h2>
-              <p class="mb-1"><span class="icon-title">Abal Silvina, Maran Débora</span></p>
+              <span class="icon-title">Romero Hilda- Romero Gustavo</span></p>
             </div>
           </div>
         </div>
@@ -114,145 +107,75 @@ Vilche: Prof. de Ntix- Informática<br>
     </div>
   </section>
 
-  <section class="horarios section-t1">
-    <div class="container">
-      <div class="row ">
-        <div class="col-md-6">
-          <h1 class="horario-title"><i class="fa fa-calendar-o" aria-hidden="true"></i>  Horarios Turno Mañana</h1>
-          <h2 class="horario-hour"><i class="fa fa-sign-in" aria-hidden="true"></i>   Ingreso: 08:15hs</h2>
-          <h2 class="horario-hour"><i class="fa fa-sign-out" aria-hidden="true"></i> Salida: 12:15hs</h2>
-        </div>                
-        <div class="col-md-6">
-        <h1 class="horario-title"><i class="fa fa-calendar-o" aria-hidden="true"></i>  Horarios Turno Tarde</h1>
-        <h2 class="horario-hour"><i class="fa fa-sign-in" aria-hidden="true"></i>   Ingreso: 13:00hs</h2>
-        <h2 class="horario-hour"><i class="fa fa-sign-out" aria-hidden="true"></i>  Salida: 17:15hs</h2>                
-        </div>                           
-      </div>      
-    </div>
-  </section>
-
-
-  <!--Carousel Wrapper-->
-  <section id="carousel-with-lb" class="carousel slide carousel-multi-item section-t8" data-ride="carousel">
-    <!--/.Controls-->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12">
-          <h3 class="horario-title" style="text-align: center">Galería de Fotos</h3>
-        </div>
+  <section class="gallery-block grid-gallery">
+      <div class="container">
+          <div class="heading">
+              <h2>Galería de fotos</h2>
+          </div>
+          <div class="row">
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-secundaria/1.jpg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-secundaria/1.jpg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-secundaria/2.jpg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-secundaria/2.jpg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-secundaria/3.jpg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-secundaria/3.jpg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-secundaria/12.jpg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-secundaria/12.jpg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-secundaria/5.jpg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-secundaria/5.jpg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-secundaria/6.jpg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-secundaria/6.jpg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-secundaria/13.jpg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-secundaria/13.jpg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-secundaria/8.jpg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-secundaria/8.jpg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-secundaria/9.jpg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-secundaria/9.jpg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-secundaria/10.jpg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-secundaria/10.jpg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-secundaria/11.jpg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-secundaria/11.jpg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-secundaria/14.jpg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-secundaria/14.jpg">
+                  </a>
+              </div>                            
+          </div>
       </div>
-      <br>
-      <br>
-      <!--Indicators-->
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-with-lb" data-slide-to="0" class="active secondary-color"></li>
-        <li data-target="#carousel-with-lb" data-slide-to="1" class="secondary-color"></li>
-        <li data-target="#carousel-with-lb" data-slide-to="2" class="secondary-color"></li>
-      </ol>
-      <!--/.Indicators-->
-      <!--Slides and lightbox-->
-
-      <div class="carousel-inner mdb-lightbox" role="listbox">
-        <div id="mdb-lightbox-ui"></div>
-        <!--First slide-->
-        <div class=" carousel-item active text-center">
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="assets/img/gallery1.jpg" data-size="1600x1067">
-              <img src="assets/img/gallery1.jpg" class="img-fluid">
-            </a>
-          </figure>
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="assets/img/gallery2.jpg" data-size="1600x1067">
-              <img src="assets/img/gallery2.jpg" class="img-fluid">
-            </a>
-          </figure>
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="assets/img/gallery3.jpg" data-size="1600x1067">
-              <img src="assets/img/gallery3.jpg" class="img-fluid">
-            </a>
-          </figure>
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="assets/img/gallery4.jpg" data-size="1600x1067">
-              <img src="assets/img/gallery4.jpg" class="img-fluid">
-            </a>
-          </figure>
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="assets/img/gallery5.jpg" data-size="1600x1067">
-              <img src="assets/img/gallery5.jpg" class="img-fluid">
-            </a>
-          </figure>
-        </div>
-        <!--/.First slide-->
-
-        <!--Second slide-->
-        <div class="carousel-item text-center">
-
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(22).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(22).jpg" class="img-fluid">
-            </a>
-          </figure>
-
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(25).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(25).jpg" class="img-fluid">
-            </a>
-          </figure>
-
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(29).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(29).jpg" class="img-fluid">
-            </a>
-          </figure>
-
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(31).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(31).jpg" class="img-fluid">
-            </a>
-          </figure>
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(32).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(32).jpg" class="img-fluid">
-            </a>
-          </figure>
-        </div>
-        <!--/.Second slide-->
-
-        <!--Third slide-->
-        <div class="carousel-item text-center">
-
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(44).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(44).jpg" class="img-fluid">
-            </a>
-          </figure>
-
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(45).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(45).jpg" class="img-fluid">
-            </a>
-          </figure>
-
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(66).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(66).jpg" class="img-fluid">
-            </a>
-          </figure>
-
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(53).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(53).jpg" class="img-fluid">
-            </a>
-          </figure>
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(56).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(56).jpg" class="img-fluid">
-            </a>
-          </figure>
-        </div>
-        <!--/.Third slide-->
-      </div>
-      <!--/.Slides-->      
-    </div>
   </section>
-  <!--/.Carousel Wrapper-->
+  <script>
+      baguetteBox.run('.grid-gallery', { animation: 'slideIn'});
+  </script>

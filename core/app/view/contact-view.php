@@ -34,11 +34,11 @@
                 </div>
                 <div class="icon-box-content table-cell">
                   <div class="icon-box-title">
-                    <h4 class="icon-title">Dirección</h4>
+                    <h4 class="title-single-box">Dirección</h4>
                   </div>
                   <div class="icon-box-content">
                     <p class="mb-1">
-                      Aguero 724 Esq. Aguero,
+                      Aguero 729 Esq. Constitución,
                       <br> Marcos Paz CP 1727
                     </p>
                   </div>
@@ -50,12 +50,12 @@
                 </div>
                 <div class="icon-box-content table-cell">
                   <div class="icon-box-title">
-                    <h4 class="icon-title">Contacto</h4>
+                    <h4 class="title-single-box">Contacto</h4>
                   </div>
                   <div class="icon-box-content">
-                      <span class="color-a">Email: administracion@insfa.com.ar</span>
+                      <span class="color-a">Email: ignessrl@yahoo.com.ar</span>
                       <br>
-                      <span class="color-a">Teléfono: (0220)-477-5889</span>
+                      <span class="color-a">Teléfono: 0220 477-0979</span>
                     </p>
                   </div>
                 </div>
@@ -66,12 +66,12 @@
                 </div>
                 <div class="icon-box-content table-cell">
                   <div class="icon-box-title">
-                    <h4 class="icon-title">Horarios de Atención</h4>
+                    <h4 class="title-single-box">Horarios de Atención Administración</h4>
                   </div>
                   <div class="icon-box-content">
                       <span class="color-a">Lunes a Viernes</span>
                       <br>
-                      <span class="color-a">07:00 a 18:00hs Horario corrido</span>
+                      <span class="color-a">07:00 a 18:00hs</span>
                     </p>
                   </div>
                 </div>

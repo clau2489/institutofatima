@@ -174,14 +174,13 @@
             <span class="glyphicon glyphicon-lock form-control-feedback"></span>
           </div>
           <div class="row">
-
-            <div class="col-xs-12">
-              <button type="submit" class="btn btn-primary btn-block btn-flat">Ingresar</button>
-            </div><!-- /.col -->
+            <div class="col-md-12">
+              <button type="submit" class="btn btn-success btn-block btn-flat">Ingresar</button>
+            </div>
+            <div class="col-md-12">
+              <a class="btn btn-primary btn-block btn-flat" href="../index.php">Volver</a>
+            </div>
           </div>
-          <div class="col-xs-12 style="text-align: center"">
-              <a href="../index.php">Volver</a>
-            </div><!-- /.col -->
         </form>
         
       </div><!-- /.login-box-body -->

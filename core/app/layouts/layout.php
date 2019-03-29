@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <title>Instituto Nuestra Señora de Fátima</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
@@ -16,6 +16,8 @@
 
   <!-- Bootstrap CSS File -->
   <link href="assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.js"></script>
 
   <!-- Libraries CSS Files -->
   <link href="assets/lib/font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -39,7 +41,7 @@
         <span></span>
         <span></span>
       </button>
-      <img src="assets/img/logo.jpg" width="70px">
+      <img src="assets/img/logo-insfa.png" width="60px" style="margin-right: 7%">
       <div class="navbar-collapse collapse center" id="navbarDefault">
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -74,7 +76,7 @@
             <a class="nav-link" href="./?view=pascal">Universidad Blas Pascal</a>
           </li>                            
         </ul>
-        <img src="assets/img/25.png" style="width: 140px; padding-left: 1em;">
+        <a href="./?view=about"><img src="assets/img/25.png" style="width: 200px; padding-left: 1em;"></a>
       </div> 
     </div>
   </nav>
@@ -89,7 +91,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="container center">
-            <img src="assets/img/10.jpg" style="width: 80%">
+            <img src="assets/img/10.jpg" style="width: 300px">
           </div>          
         </div>
       </div>
@@ -102,20 +104,23 @@
           <br>
           <span class="text-copy">(0220)-477-4414/ 0979</span>
           <br>
-          <span class="text-copy">administracion@insfa.com.ar</span>
-          <br><br>
+          <span class="text-copy">ignessrl@yahoo.com.ar</span>
+          <br>
+          <a class="text-copy" href="admin/index.php"><i class="fa fa-lock" aria-hidden="true"></i> Acceso a usuarios registrados</a>
         </div>                   
-      </div>
-      <br><br>
-      <div class="row">
-        <div class="col-md-12" style="text-align: center">
-          <p class="text-copy">2019 &copy;
-          <span class="text-copy">Instituto Ntra. Sra. de Fátima </span>. Todos los derechos reservados</p>
-          <p class="text-copy">Sitio creado por <a href="http://www.oestedev.com"><img src="assets/img/oestedev.png" style="width: 80px;"></a></p>        
-        </div>                 
       </div>
     </div>
   </footer>
+  <div class="copy container-fluid">
+    <div class="row">
+      <div class="col-md-12" style="text-align: center">
+        <p class="text-copy">2019 &copy;
+        <span class="text-copy">Instituto Ntra. Sra. de Fátima - Todos los derechos reservados</span><br>
+        <span class="text-copy">Sitio creado por <a href="http://www.oestedev.com"><img src="assets/img/oestedev.png" style="width: 80px;"></a></span>        
+      </div>                 
+    </div>    
+  </div>
+
 
   <!-- JavaScript Libraries -->
   <script src="assets/lib/jquery/jquery.min.js"></script>

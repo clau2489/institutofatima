@@ -34,6 +34,11 @@
               </p>
             </div>
           </div>
+          <div class="row">
+            <div class="col-md-12">
+              <a href="https://www.ubp.edu.ar/" class="btn btn-success">Más Información</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

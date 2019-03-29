@@ -19,9 +19,9 @@
         <div class="col-md-12">
           <div class="row">
             <div class="col-md-6">
-              <img src="assets/img/1.jpg" alt="" class="img-fluid">
+              <img src="assets/img/primaria.jpg" alt="" class="img-fluid">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 parraf">
               <p class="color-text-a">
                 Nuestra escuela cuenta con los seis años de primaria y dos secciones para cada año. Además de los contenidos curriculares diseñados por la Dirección General de Cultura y Educación, el Instituto Nuestra Señora de Fátima ofrece la enseñanza de en los seis años y además inglés desde 1er grado. Ambas asignaturas con dos horas semanales.  Es fundamental recalcar el trabajo en el área de computación en el segundo ciclo sobre el uso de las NTCx y las redes sociales.   
               </p>
@@ -37,39 +37,48 @@
   </section>
   <!--/ About End /-->
 
-  <section class="section-about section-t8" style="text-align: center">
+  <section class="section-t8 prof">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="row">
             <div class="col-md-12">
               <h2 class="horario-title">Equipo Directivo</h2>
-              <p class="mb-1">Directora: <span class="icon-title">Marciano Maria Jorgelina</span></p>
-              <p class="mb-1">Vice-Directora: <span class="icon-title">Mariñasky Ana Belén</span></p>
-              <p class="mb-1">Secretaria: <span class="icon-title">Granara Verónica</span></p>
-              <br><br>
+              <span class="icon-title">
+                Directora: Marciano María Jorgelina<br>
+                Vice-Directora: Mariñansky Ana Belén
+              </span>
+              <h2 class="horario-title">Secretaria</h2>
+              <span class="icon-title">
+                Granara Verónica<br>
+              </span>
+              <br>
               <h2 class="horario-title">Equipo Docente</h2>
               <span class="icon-title">
-                Allario, Sandra <br>
-                Álvarez, Alejandra <br>
-                Chanquet, Gimena<br>
-                Chaparro, Carla<br>
-                Cóceres, Flavia<br>
-                Correa, Karina<br>
-                Dorola, María Emilia<br>
-                González, Elizabeth<br>
-                Leguizamón, Marcela<br>
-                Osuna, Luciana<br>
-                Roffi, Daniela<br>
-                Sani, Gabriela<br>
-                Vallejos, Verónica<br>
+                Allario Sandra <br>
+                Álvarez Alejandra<br>
+                Chanquet Gimena<br>
+                Chaparro Carla<br>
+                Cóceres Flavia<br>
+                Correa Karina<br>
+                Dorola María Emilia<br>
+                González Elizabeth<br>
+                Leguizamón Marcela<br>
+                Osuna Luciana<br>
+                Roffi Daniela<br>
+                Sani Gabriela<br>
+                Vallejos Verónica<br>
               </span>
-              <p class="mb-1">Prof. Música: <span class="icon-title">Dianda Evangelina, Chiavone Flavio</span></p>
-              <p class="mb-1">Prof. Artística: <span class="icon-title">Sala Natalia</span></p>
-              <p class="mb-1">Prof. Inglés: <span class="icon-title">Barreto Kramer Maria victoria, Mcloughin Verónica, Fuggeta Daniela</span></p>
-              <p class="mb-1">Prof. Computación: <span class="icon-title">Maidana Xoana, Torres Lorena</span></p>
+              <span class="icon-title">
+                Prof. Educ. Física: Arcardini Mariano - Rinaldini Sebastián - Vilas Martín<br>
+                Prof. Música: Chiavone Flavio - Dianda Evangelina<br>
+                Prof. Inglés: Barreto Krämer Victoria - Fuggetta Daniela - Mcloughlin Verónica. <br>
+                Prof. Computación: Maidana Xoana, Torres Lorena<br>
+              </span>
+              <h2 class="horario-title">Equipo de Orientación Escolar</h2>
+              <span class="icon-title">Lic. Ortiz Mariela - Lic. Chianelli Natalia</span></p>
               <h2 class="horario-title">Auxiliares</h2>
-              <p class="mb-1"><span class="icon-title">Lezcano, Diana- Monserrat, Cristina</span></p>
+              <span class="icon-title">Lezcano Diana - Monserrat Cristina</span></p>
             </div>
           </div>
         </div>
@@ -77,139 +86,70 @@
     </div>
   </section>
 
-  <section class="horarios section-t1">
-    <div class="container">
-      <div class="row ">               
-        <div class="col-md-12">
-        <h1 class="horario-title"><i class="fa fa-calendar-o" aria-hidden="true"></i>  Horarios Primario</h1>
-        <h2 class="horario-hour"><i class="fa fa-sign-in" aria-hidden="true"></i>   Ingreso: 13:00hs</h2>
-        <h2 class="horario-hour"><i class="fa fa-sign-out" aria-hidden="true"></i>  Salida: 17:30hs</h2>                
-        </div>                           
-      </div>      
-    </div>
-  </section>
-
-  <!--Carousel Wrapper-->
-  <section id="carousel-with-lb" class="carousel slide carousel-multi-item section-t8" data-ride="carousel">
-    <!--/.Controls-->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12">
-          <h3 class="horario-title" style="text-align: center">Galería de Fotos</h3>
-        </div>
+  <section class="gallery-block grid-gallery">
+      <div class="container">
+          <div class="heading">
+              <h2>Galería de fotos</h2>
+          </div>
+          <div class="row">
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-inicial/1.jpeg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/1.jpeg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-inicial/2.jpeg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/2.jpeg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-inicial/3.jpeg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/3.jpeg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-inicial/4.jpeg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/4.jpeg>
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-inicial/5.jpeg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/5.jpeg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-inicial/6.jpeg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/6.jpeg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-inicial/7.jpeg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/7.jpeg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-inicial/8.jpeg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/8.jpeg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-inicial/9.jpeg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/9.jpeg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-inicial/10.jpeg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/10.jpeg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-inicial/11.jpeg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/11.jpeg">
+                  </a>
+              </div>              
+          </div>
       </div>
-      <br>
-      <br>
-      <!--Indicators-->
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-with-lb" data-slide-to="0" class="active secondary-color"></li>
-        <li data-target="#carousel-with-lb" data-slide-to="1" class="secondary-color"></li>
-        <li data-target="#carousel-with-lb" data-slide-to="2" class="secondary-color"></li>
-      </ol>
-      <!--/.Indicators-->
-      <!--Slides and lightbox-->
-
-      <div class="carousel-inner mdb-lightbox" role="listbox">
-        <div id="mdb-lightbox-ui"></div>
-        <!--First slide-->
-        <div class=" carousel-item active text-center">
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="assets/img/gallery1.jpg" data-size="1600x1067">
-              <img src="assets/img/gallery1.jpg" class="img-fluid">
-            </a>
-          </figure>
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="assets/img/gallery2.jpg" data-size="1600x1067">
-              <img src="assets/img/gallery2.jpg" class="img-fluid">
-            </a>
-          </figure>
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="assets/img/gallery3.jpg" data-size="1600x1067">
-              <img src="assets/img/gallery3.jpg" class="img-fluid">
-            </a>
-          </figure>
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="assets/img/gallery4.jpg" data-size="1600x1067">
-              <img src="assets/img/gallery4.jpg" class="img-fluid">
-            </a>
-          </figure>
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="assets/img/gallery5.jpg" data-size="1600x1067">
-              <img src="assets/img/gallery5.jpg" class="img-fluid">
-            </a>
-          </figure>
-        </div>
-        <!--/.First slide-->
-
-        <!--Second slide-->
-        <div class="carousel-item text-center">
-
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(22).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(22).jpg" class="img-fluid">
-            </a>
-          </figure>
-
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(25).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(25).jpg" class="img-fluid">
-            </a>
-          </figure>
-
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(29).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(29).jpg" class="img-fluid">
-            </a>
-          </figure>
-
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(31).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(31).jpg" class="img-fluid">
-            </a>
-          </figure>
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(32).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(32).jpg" class="img-fluid">
-            </a>
-          </figure>
-        </div>
-        <!--/.Second slide-->
-
-        <!--Third slide-->
-        <div class="carousel-item text-center">
-
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(44).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(44).jpg" class="img-fluid">
-            </a>
-          </figure>
-
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(45).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(45).jpg" class="img-fluid">
-            </a>
-          </figure>
-
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(66).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(66).jpg" class="img-fluid">
-            </a>
-          </figure>
-
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(53).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(53).jpg" class="img-fluid">
-            </a>
-          </figure>
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(56).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(56).jpg" class="img-fluid">
-            </a>
-          </figure>
-        </div>
-        <!--/.Third slide-->
-      </div>
-      <!--/.Slides-->      
-    </div>
   </section>
-  <!--/.Carousel Wrapper-->
+  <script>
+      baguetteBox.run('.grid-gallery', { animation: 'slideIn'});
+  </script>

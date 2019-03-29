@@ -21,15 +21,16 @@
             <div class="col-md-6">
               <img src="assets/img/inicial.jpg" alt="" class="img-fluid">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 parraf">
               <p class="color-text-a">
                 El nivel inicial está compuesto por seis secciones, dos en el turno mañana y 4 en el turno tarde. En lo que respecta a las actividades extra curriculares que se desarrollan en el día a día del jardín cuenta con la enseñanza de computación desde sala rosa (2/3 años) e inglés desde la sala amarilla (4 años). En 2019, comenzó el proyecto de las salas multiedad, teniendo dos en el turno mañana: sala rosa con niños de 2 y 3 años, y sala amarilla de 4 y 5 años. En el turno tarde la sala rosa (3 años), amarilla (4 años) y azul (5 años) mantuvieron la estructura original, mientras que la sala naranja se convirtió también en multiedad (4 y 5 años) 
               </p>
               <p class="color-text-a">
-                En términos de infraestrutura, el jardín cuenta con un salón de usos múltiples sólo para este nivel, biblioteca y parque preparado para que los infantes tengan una experiencia gratificante y logren aprender experimentando y jugando.    
+                En términos de infraestructura, el jardín cuenta con un salón de usos múltiples sólo para este nivel, biblioteca y parque preparado para que los infantes tengan una experiencia gratificante y logren aprender experimentando y jugando.    
               </p>
-              <br><br><br>              
+              <br><br><br><br>             
             </div>
+
           </div>
         </div>
       </div>
@@ -37,14 +38,14 @@
   </section>
   <!--/ About End /-->
 
-  <section class="section-about section-t8" style="text-align: center">
+  <section class="section-t8 prof">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="row">
             <div class="col-md-12">
               <h2 class="horario-title">Equipo Directivo</h2>
-              <p class="mb-1">Directora: <span class="icon-title">Garitonandia Silvana</span></p>
+              <span class="icon-title">Directora: Garitonandía Silvana</span>
               <h2 class="horario-title">Preceptoras</h2>
               <span class="icon-title">
                 Ballesteros, Agustina<br>
@@ -60,14 +61,16 @@
                 Mcloughlin, Luciana<br>
                 Rodriguez, Cecilia<br>
               </span>
-              <p class="mb-1">Prof. Educ. Física: <span class="icon-title">Maria Soledad, Vilas Martín</span></p>
-              <p class="mb-1">Prof. Música: <span class="icon-title">González Agustín</span></p>
-              <p class="mb-1">Prof. Inglés: <span class="icon-title">Cabrera Débora</span></p>
-              <p class="mb-1">Prof. Computación: <span class="icon-title">Maidana Xoana, Torres Lorena</span></p>
+              <span class="icon-title">
+                Prof. Educ. Física: Maria Soledad, Vilas Martín<br>
+                Prof. Música: González Agustín<br>
+                Prof. Inglés: Cabrera Débora<br>
+                Prof. Computación: Maidana Xoana, Torres Lorena<br>
+              </span>
               <h2 class="horario-title">Equipo de Orientación Escolar</h2>
-              <p class="mb-1"><span class="icon-title">Lic. Ortiz Mariela </span></p>
+              <span class="icon-title">Lic. Ortiz Mariela - Lic. Chianelli Natalia</span></p>
               <h2 class="horario-title">Auxiliares</h2>
-              <p class="mb-1"><span class="icon-title">Abal Silvina, Maran Débora</span></p>
+              <span class="icon-title">Abal Silvina, Marán Débora</span></p>
             </div>
           </div>
         </div>
@@ -75,255 +78,70 @@
     </div>
   </section>
 
-  <section class="horarios section-t1">
-    <div class="container">
-      <div class="row ">
-        <div class="col-md-6">
-          <h1 class="horario-title"><i class="fa fa-calendar-o" aria-hidden="true"></i>  Horarios Turno Mañana</h1>
-          <h2 class="horario-hour"><i class="fa fa-sign-in" aria-hidden="true"></i>   Ingreso: 08:15hs</h2>
-          <h2 class="horario-hour"><i class="fa fa-sign-out" aria-hidden="true"></i> Salida: 12:15hs</h2>
-        </div>                
-        <div class="col-md-6">
-        <h1 class="horario-title"><i class="fa fa-calendar-o" aria-hidden="true"></i>  Horarios Turno Tarde</h1>
-        <h2 class="horario-hour"><i class="fa fa-sign-in" aria-hidden="true"></i>   Ingreso: 13:00hs</h2>
-        <h2 class="horario-hour"><i class="fa fa-sign-out" aria-hidden="true"></i>  Salida: 17:15hs</h2>                
-        </div>                           
-      </div>      
-    </div>
-  </section>
-
-
-  <!--Carousel Wrapper
-  <section id="carousel-with-lb" class="carousel slide carousel-multi-item section-t8 carousel-group" data-ride="carousel">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h3 class="horario-title" style="text-align: center">Equipo Docente</h3>
-        </div>
-      </div>
-      <br>
-      <br>
-
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-with-lb" data-slide-to="0" class="active secondary-color"></li>
-        <li data-target="#carousel-with-lb" data-slide-to="1" class="secondary-color"></li>
-        <li data-target="#carousel-with-lb" data-slide-to="2" class="secondary-color"></li>
-      </ol>
-
-      <div class="carousel-inner mdb-lightbox" role="listbox">
-        <div id="mdb-lightbox-ui"></div>
-        <div class=" carousel-item active text-center">
-          <div class="row">
-            <figure class="col-md-3 d-md-inline-block">
-              <img src="assets/img/secundaria/1.jpg" class="rounded-circle">
-              <h2>Daniela Fuggeta</h2>
-              <p>Directora</p>
-              <p>Directora Nivel Secundario</p>
-            </figure>
-            <figure class="col-md-3 d-md-inline-block">
-              <img src="assets/img/secundaria/2.jpg" class="rounded-circle">
-              <h2>Romina Ferraro</h2>
-              <p>Profesora</p>
-              <p>Lengua y Literatura</p>
-            </figure>
-            <figure class="col-md-3 d-md-inline-block">
-              <img src="assets/img/secundaria/3.jpg" class="rounded-circle">
-              <h2>Natalia Chianelli</h2>
-              <p>Prof. Psicología, Salud y Adolescencia, Habilidades Cognitivas</p>
-            </figure>
-            <figure class="col-md-3 d-md-inline-block">
-              <img src="assets/img/secundaria/4.jpg" class="rounded-circle">
-              <h2>Lucía Juarez</h2>
-              <p>Profesora</p>
-              <p>Inglés</p>
-            </figure>             
-          </div>               
-        </div>
-
-        <div class="carousel-item text-center">
-          <div class="row">
-            <figure class="col-md-3 d-md-inline-block">
-              <img src="assets/img/secundaria/1.jpg" class="rounded-circle">
-              <h2>Daniela Fuggeta</h2>
-              <p>Directora</p>
-              <p>Directora Nivel Secundario</p>
-            </figure>
-            <figure class="col-md-3 d-md-inline-block">
-              <img src="assets/img/secundaria/2.jpg" class="rounded-circle">
-              <h2>Romina Ferraro</h2>
-              <p>Profesora</p>
-              <p>Lengua y Literatura</p>
-            </figure>
-            <figure class="col-md-3 d-md-inline-block">
-              <img src="assets/img/secundaria/3.jpg" class="rounded-circle">
-              <h2>Natalia Chianelli</h2>
-              <p>Prof. Psicología, Salud y Adolescencia, Habilidades Cognitivas</p>
-            </figure>
-            <figure class="col-md-3 d-md-inline-block">
-              <img src="assets/img/secundaria/4.jpg" class="rounded-circle">
-              <h2>Lucía Juarez</h2>
-              <p>Profesora</p>
-              <p>Inglés</p>
-            </figure>             
+  <section class="gallery-block grid-gallery">
+      <div class="container">
+          <div class="heading">
+              <h2>Galería de fotos</h2>
           </div>
-        </div>
-
-        <div class="carousel-item text-center">
           <div class="row">
-            <figure class="col-md-3 d-md-inline-block">
-              <img src="assets/img/secundaria/1.jpg" class="rounded-circle">
-              <h2>Daniela Fuggeta</h2>
-              <p>Directora</p>
-              <p>Directora Nivel Secundario</p>
-            </figure>
-            <figure class="col-md-3 d-md-inline-block">
-              <img src="assets/img/secundaria/2.jpg" class="rounded-circle">
-              <h2>Romina Ferraro</h2>
-              <p>Profesora</p>
-              <p>Lengua y Literatura</p>
-            </figure>
-            <figure class="col-md-3 d-md-inline-block">
-              <img src="assets/img/secundaria/3.jpg" class="rounded-circle">
-              <h2>Natalia Chianelli</h2>
-              <p>Prof. Psicología, Salud y Adolescencia, Habilidades Cognitivas</p>
-            </figure>
-            <figure class="col-md-3 d-md-inline-block">
-              <img src="assets/img/secundaria/4.jpg" class="rounded-circle">
-              <h2>Lucía Juarez</h2>
-              <p>Profesora</p>
-              <p>Inglés</p>
-            </figure>             
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-inicial/1.jpeg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/1.jpeg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-inicial/2.jpeg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/2.jpeg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-inicial/3.jpeg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/3.jpeg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-inicial/4.jpeg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/4.jpeg>
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-inicial/5.jpeg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/5.jpeg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-inicial/6.jpeg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/6.jpeg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-inicial/7.jpeg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/7.jpeg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-inicial/8.jpeg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/8.jpeg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-inicial/9.jpeg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/9.jpeg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-inicial/10.jpeg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/10.jpeg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-inicial/11.jpeg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/11.jpeg">
+                  </a>
+              </div>              
           </div>
-        </div>
-
       </div>
-     
-    </div>
   </section>
-  /.Carousel Wrapper-->
-
-
-  <!--Carousel Wrapper-->
-  <section id="carousel-with-lb" class="carousel slide carousel-multi-item section-t8" data-ride="carousel">
-    <!--/.Controls-->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12">
-          <h3 class="horario-title" style="text-align: center">Galería de Fotos</h3>
-        </div>
-      </div>
-      <br>
-      <br>
-      <!--Indicators-->
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-with-lb" data-slide-to="0" class="active secondary-color"></li>
-        <li data-target="#carousel-with-lb" data-slide-to="1" class="secondary-color"></li>
-        <li data-target="#carousel-with-lb" data-slide-to="2" class="secondary-color"></li>
-      </ol>
-      <!--/.Indicators-->
-      <!--Slides and lightbox-->
-
-      <div class="carousel-inner mdb-lightbox" role="listbox">
-        <div id="mdb-lightbox-ui"></div>
-        <!--First slide-->
-        <div class=" carousel-item active text-center">
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="assets/img/gallery1.jpg" data-size="1600x1067">
-              <img src="assets/img/gallery1.jpg" class="img-fluid">
-            </a>
-          </figure>
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="assets/img/gallery2.jpg" data-size="1600x1067">
-              <img src="assets/img/gallery2.jpg" class="img-fluid">
-            </a>
-          </figure>
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="assets/img/gallery3.jpg" data-size="1600x1067">
-              <img src="assets/img/gallery3.jpg" class="img-fluid">
-            </a>
-          </figure>
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="assets/img/gallery4.jpg" data-size="1600x1067">
-              <img src="assets/img/gallery4.jpg" class="img-fluid">
-            </a>
-          </figure>
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="assets/img/gallery5.jpg" data-size="1600x1067">
-              <img src="assets/img/gallery5.jpg" class="img-fluid">
-            </a>
-          </figure>
-        </div>
-        <!--/.First slide-->
-
-        <!--Second slide-->
-        <div class="carousel-item text-center">
-
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(22).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(22).jpg" class="img-fluid">
-            </a>
-          </figure>
-
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(25).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(25).jpg" class="img-fluid">
-            </a>
-          </figure>
-
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(29).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(29).jpg" class="img-fluid">
-            </a>
-          </figure>
-
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(31).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(31).jpg" class="img-fluid">
-            </a>
-          </figure>
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(32).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(32).jpg" class="img-fluid">
-            </a>
-          </figure>
-        </div>
-        <!--/.Second slide-->
-
-        <!--Third slide-->
-        <div class="carousel-item text-center">
-
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(44).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(44).jpg" class="img-fluid">
-            </a>
-          </figure>
-
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(45).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(45).jpg" class="img-fluid">
-            </a>
-          </figure>
-
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(66).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(66).jpg" class="img-fluid">
-            </a>
-          </figure>
-
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(53).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(53).jpg" class="img-fluid">
-            </a>
-          </figure>
-          <figure class="col-md-2 d-md-inline-block">
-            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(56).jpg" data-size="1600x1067">
-              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(56).jpg" class="img-fluid">
-            </a>
-          </figure>
-        </div>
-        <!--/.Third slide-->
-      </div>
-      <!--/.Slides-->      
-    </div>
-  </section>
-  <!--/.Carousel Wrapper-->
+  <script>
+      baguetteBox.run('.grid-gallery', { animation: 'slideIn'});
+  </script>

@@ -55,10 +55,8 @@
 .skin-green-light .content-header {
   background: transparent;
 }
-.skin-green-light .wrapper,
-.skin-green-light .main-sidebar,
-.skin-green-light .left-side {
-  background-color: #f9fafc;
+.skin-blue-light .wrapper, .skin-blue-light .main-sidebar, .skin-blue-light .left-side {
+    background-color: #5a0309;
 }
 .skin-green-light .content-wrapper,
 .skin-green-light .main-footer {
