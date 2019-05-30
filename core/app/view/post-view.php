@@ -2,14 +2,24 @@
 $jb  = PostData::getById($_GET["id"]);
 ?>
 <br><br><br><br><br><br>
+
+<script language="javascript">
+    function fbshareCurrentPage()
+    {window.open("https://www.facebook.com/sharer/sharer.php?u="+escape(window.location.href)+"&t="+document.title, '', 
+    'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');
+    return false; }
+</script>
+
+
 <!--/ News Single Star /-->
 <section class="news-single nav-arrow-b section t-8">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h1 class="title-new"><?php echo $jb->title; ?></h1>
+        <p><?php $nueva_fecha = date("d-m-Y",strtotime($jb->created_at)); echo $nueva_fecha; ?></p>
+        <h1 class="title-new-post"><?php echo $jb->title; ?></h1>
         <br>
-        <span class="date-b"><h4 class="subtitle"><?php echo $jb->brief; ?></h4></span>        
+        <span class="date-b"><h4 class="subtitle"><?php echo $jb->brief; ?></h4></span><hr>        
       </div>
     </div>
     <div class="row">
@@ -21,36 +31,16 @@ $jb  = PostData::getById($_GET["id"]);
         </div>
       </div>
       <div class="col-md-6">
-        <div class="post-content color-text-a">
+        <div class="color-text-a">
             <?php echo $jb->content; ?>
         </div>
         <div class="post-footer">
           <div class="post-share">
-            <span>Compartir en: </span>
-            <ul class="list-inline socials">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-pinterest-p" aria-hidden="true"></i>
-                </a>
-              </li>
-            </ul>
+           <a href="javascript:fbshareCurrentPage()" target="_blank" alt="Share on Facebook" style="font-size: 14px; background-color: #0062cc; color: white; padding: 10px; border-radius: 10px;"><i class="fa fa-share-alt" aria-hidden="true"></i> Compartir en Facebook</a>
           </div>
         </div>
+
+
         <div class="panel panel-default">
           <?php
           $comments  = CommentData::getPublicByPost($jb->id);

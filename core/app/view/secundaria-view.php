@@ -1,10 +1,10 @@
-  <!--/ Intro Single star /-->
+<!--/ Intro Single star /-->
   <section class="intro-single">
     <div class="container">
       <div class="row">
         <div class="col-md-12 col-lg-8">
           <div class="title-single-box">
-            <h1 class="title-single">Educacion de Nivel Secundario</h1>
+            <h1 class="title-single">Educación de Nivel Secundario</h1>
           </div>
         </div>
       </div>
@@ -23,13 +23,16 @@
             </div>
             <div class="col-md-6 parraf">
               <p class="color-text-a">
-                El nivel secundario tanto como con el nivel básico como con el nivel superior. En lo que respecta al básico (1º, 2º y 3º año) los dos primeros años están bajo el régimen de la nueva secundaria, mientras que el último año del ciclo básico continua con el modelo de secundaria propuesto en la resolución   de 2006.   
+El Nivel Secundario cuenta con el Ciclo Básico de tres años y el Ciclo Superior, también de tres años pero que ofrece dos orientaciones. Desde el 2018, el Instituto forma parte de las escuelas promotoras de la nueva secundaria, por lo que este año tanto 1er año y 2do forman parte de este proyecto.   
               </p>
               <p class="color-text-a">
-                La escuela cuenta con dos modalidades para el nivel superior orientadas en Economía y Gestión de las organizaciones y Humanidades y Ciencias Sociales con el objetivo de preparar a los estudiantes tanto para que extiendan sus estudios como, también,  para el mundo laboral.   
+                La escuela cuenta con dos modalidades para el Nivel Superior orientadas en Economía y Gestión de las Organizaciones; y Humanidades y Ciencias Sociales, con el objetivo de preparar a los Estudiantes tanto para que extiendan sus estudios como también para el mundo laboral.   
               </p>
               <p class="color-text-a">
-                En cuanto a materias extracurriculares, la secundaria cuenta con la enseñanza de informática hasta el final de la secundaria básica y tres niveles de inglés en cada curso, permitiendo un aprendizaje personalizado y teniendo en cuenta habilidades y aptitudes de cada estudiante.    
+                El Instituto Nuestra Señora de Fátima, ofrece la enseñanza de Inglés por niveles, cada año desde 1º a 6º cuenta con tres estadios: elemental, intermedio y avanzado en donde la enseñanza es personalizada y se permite desarrollar habilidades, lograr aprendizajes significativos y crecer en la formación de la Lengua Extranjera. Además cuenta con una hora extra semanal, transformando la carga horaria de dos horas, en tres.    
+              </p>
+              <p class="color-text-a">
+                En cuanto a las materias extracurriculares, la Secundaria propone la enseñanza de Informática hasta el final del Ciclo Básico. Este proyecto está orientado a fortalecer el desarrollo vincular entre los Estudiantes y las nuevas tecnologías. Fomentando de esta manera, valores de responsabilidad y cuidado ante el uso de los dispositivos y sus aplicaciones.    
               </p>              
               <br><br><br>              
             </div>

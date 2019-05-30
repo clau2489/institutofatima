@@ -1,4 +1,4 @@
-  <?php
+<?php
     $jobs  = PostData::getAllActive();
   ?>
 
@@ -64,7 +64,7 @@
   <!--/ Carousel end /-->
 
   <!--/ Agents Star /-->
-  <section class="section-agents section-t8">
+  <section class="section-agents section-t8 niveles">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -81,7 +81,7 @@
                 <a href="./?view=inicial"><img class="card-img-top" src="assets/img/inicial.jpg"></a>
                 <div class="card-body">
                    <h5 class="card-title border-bottom pb-3">Nivel Inicial</h5>
-                   <p class="card-text">Jardin de Infantes a partir de los 2 años.</p>
+                   <p class="card-text">Jardín de Infantes a partir de los 2 años.</p>
                 </div>
              </div>
           </div>
@@ -99,7 +99,7 @@
                 <a href="./?view=secundaria"><img class="card-img-top" src="assets/img/secundario.jpg" alt="Card image cap"></a>
                 <div class="card-body">
                    <h5 class="card-title border-bottom pb-3">Nivel Secundario</h5>
-                   <p class="card-text">Orientación en Humanidades y Cs. Sociales - Economia y Gestión de las Organizaciones</p>
+                   <p class="card-text">Orientación en Humanidades y Cs. Sociales - Economía y Gestión de las Organizaciones</p>
                 </div>
              </div>
           </div>
@@ -142,8 +142,9 @@
                 <div class="panel-heading">
                   <div class="text">
                     <div class="row">
-                      <div class="col-sm-12">
-                        <h1 class="title-new"><?php echo $jb->title; ?></h1><br>
+                      <div class="col-sm-12"><br>
+                        <p><?php $nueva_fecha = date("d-m-Y",strtotime($jb->created_at)); echo $nueva_fecha; ?></p>
+                        <h1 class="title-new"><?php echo $jb->title; ?></h1>
                         <span class="date-b"><?php echo $jb->brief; ?></span>
                       </div>
                     </div>
@@ -159,8 +160,9 @@
       </div>
       <?php endforeach; ?>
       <?php else:?>
-      <p class="alert alert-warning">No hay articulos publicados por el momento!</p>
+      <p class="alert alert-warning">No hay artículos publicados por el momento!</p>
       <?php endif; ?>
+      <p><a href="./?view=blog">Click para leer todas las noticias</a></p>
     </div>
   </section>
   <!--/ News Grid End /-->
@@ -170,7 +172,7 @@
     <div class="container center">
       <div class="row">
         <div class="col-md-12 center">     
-          <h1 class="title-single">Seguinos en nuestras Redes Sociales</h1>
+          <h1 class="title-single">Seguinos en nuestras Redes Sociales y Enterate todas las novedades acerca de nuestra Institución.</h1>
         </div>        
       </div>
       <div class="row">
@@ -212,7 +214,7 @@
       <br>
       <div class="row">
         <div class="col-md-12 center">
-          <h1 class="title-single">Enterate todas las novedades acerca de nuestra Institución.</h1>
+          <h1 class="title-single"> </h1>
         </div>        
       </div>      
     </div>

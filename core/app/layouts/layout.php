@@ -11,11 +11,8 @@
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-
   <!-- Bootstrap CSS File -->
-  <link href="assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/lib/bootstrap/css/bootstrap.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.js"></script>
 
@@ -24,10 +21,19 @@
   <link href="assets/lib/animate/animate.min.css" rel="stylesheet">
   <link href="assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Noto+Serif+JP|Questrial" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
   <link href="assets/css/style.css" rel="stylesheet">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138535009-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138535009-1');
+</script>
+
 </head>
 
 <body>
@@ -91,14 +97,14 @@
       <div class="row">
         <div class="col-md-12">
           <div class="container center">
-            <img src="assets/img/10.jpg" style="width: 300px">
+            <img src="assets/img/10.jpg" style="width: 80%">
           </div>          
         </div>
       </div>
       <br>
       <div class="row">
         <div class="col-md-12" style="text-align: center">
-          <span class="text-copy">Aguero 792 Esq. Constitución</span>
+          <span class="text-copy">Agüero 792 Esq. Constitución</span>
           <br>
           <span class="text-copy">Marcos Paz - Pcia. Bs. As.</span>
           <br>

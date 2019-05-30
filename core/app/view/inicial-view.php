@@ -1,4 +1,4 @@
-  <!--/ Intro Single star /-->
+<!--/ Intro Single star /-->
   <section class="intro-single">
     <div class="container">
       <div class="row">
@@ -23,7 +23,7 @@
             </div>
             <div class="col-md-6 parraf">
               <p class="color-text-a">
-                El nivel inicial está compuesto por seis secciones, dos en el turno mañana y 4 en el turno tarde. En lo que respecta a las actividades extra curriculares que se desarrollan en el día a día del jardín cuenta con la enseñanza de computación desde sala rosa (2/3 años) e inglés desde la sala amarilla (4 años). En 2019, comenzó el proyecto de las salas multiedad, teniendo dos en el turno mañana: sala rosa con niños de 2 y 3 años, y sala amarilla de 4 y 5 años. En el turno tarde la sala rosa (3 años), amarilla (4 años) y azul (5 años) mantuvieron la estructura original, mientras que la sala naranja se convirtió también en multiedad (4 y 5 años) 
+                El nivel Inicial está compuesto por seis secciones, dos en el turno mañana y 4 en el turno tarde. En lo que respecta a las actividades extra curriculares que se desarrollan en el día a día del jardín, la Institución cuenta con la enseñanza de Computación desde sala rosa (2/3 años) e Inglés desde la sala amarilla (4 años). En 2019, comenzó el proyecto de las salas multiedad, teniendo dos en el turno mañana: sala rosa con niños de 2 y 3 años, y sala amarilla de 4 y 5 años. En el turno tarde la sala rosa (3 años), amarilla (4 años) y azul (5 años) mantuvieron la estructura original, mientras que la sala naranja se convirtió también en multiedad (4 y 5 años) 
               </p>
               <p class="color-text-a">
                 En términos de infraestructura, el jardín cuenta con un salón de usos múltiples sólo para este nivel, biblioteca y parque preparado para que los infantes tengan una experiencia gratificante y logren aprender experimentando y jugando.    
@@ -58,11 +58,11 @@
                 Ballesteros, Agustina<br>
                 Coria, Natalia<br>
                 Gutierrez, Daniela<br>
-                Mcloughlin, Luciana<br>
+                Mc Loughlin, Luciana<br>
                 Rodriguez, Cecilia<br>
               </span>
               <span class="icon-title">
-                Prof. Educ. Física: Maria Soledad, Vilas Martín<br>
+                Prof. Educ. Física: María Soledad, Vilas Martín<br>
                 Prof. Música: González Agustín<br>
                 Prof. Inglés: Cabrera Débora<br>
                 Prof. Computación: Maidana Xoana, Torres Lorena<br>
@@ -90,18 +90,28 @@
                   </a>
               </div>
               <div class="col-md-6 col-lg-4 item">
-                  <a class="lightbox" href="assets/img/gallery-inicial/2.jpeg">
-                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/2.jpeg">
-                  </a>
-              </div>
-              <div class="col-md-6 col-lg-4 item">
                   <a class="lightbox" href="assets/img/gallery-inicial/3.jpeg">
                       <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/3.jpeg">
                   </a>
               </div>
               <div class="col-md-6 col-lg-4 item">
-                  <a class="lightbox" href="assets/img/gallery-inicial/4.jpeg">
-                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/4.jpeg>
+                  <a class="lightbox" href="assets/img/gallery-inicial/8.jpeg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/8.jpeg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-inicial/10.jpeg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/10.jpeg">
+                  </a>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-inicial/11.jpeg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/11.jpeg">
+                  </a>
+              </div>                            
+              <div class="col-md-6 col-lg-4 item">
+                  <a class="lightbox" href="assets/img/gallery-primaria/4.jpeg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/4.jpeg">
                   </a>
               </div>
               <div class="col-md-6 col-lg-4 item">
@@ -120,25 +130,15 @@
                   </a>
               </div>
               <div class="col-md-6 col-lg-4 item">
-                  <a class="lightbox" href="assets/img/gallery-inicial/8.jpeg">
-                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/8.jpeg">
-                  </a>
-              </div>
-              <div class="col-md-6 col-lg-4 item">
                   <a class="lightbox" href="assets/img/gallery-inicial/9.jpeg">
                       <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/9.jpeg">
                   </a>
               </div>
               <div class="col-md-6 col-lg-4 item">
-                  <a class="lightbox" href="assets/img/gallery-inicial/10.jpeg">
-                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/10.jpeg">
+                  <a class="lightbox" href="assets/img/gallery-inicial/2.jpeg">
+                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/2.jpeg">
                   </a>
-              </div>
-              <div class="col-md-6 col-lg-4 item">
-                  <a class="lightbox" href="assets/img/gallery-inicial/11.jpeg">
-                      <img class="img-fluid image scale-on-hover" src="assets/img/gallery-inicial/11.jpeg">
-                  </a>
-              </div>              
+              </div>                            
           </div>
       </div>
   </section>

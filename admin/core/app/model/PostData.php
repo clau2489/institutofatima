@@ -46,7 +46,7 @@ class PostData {
 	}
 	
 		public static function getAllActive(){
-		$sql = "select * from ".self::$tablename." where status=1";
+		$sql = "select * from ".self::$tablename." where status=1 order by created_at desc";
 		$query = Executor::doit($sql);
 		return Model::many($query[0],new PostData());
 

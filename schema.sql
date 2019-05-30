@@ -1,9 +1,6 @@
-/* 
-@author: evilnapsis
-@brief: updated 2018 
-*/
-create database blogelin;
-use blogelin;
+
+create database c1520122_insfa;
+use c1520122_insfa;
 
 create table category(
 	id int not null auto_increment primary key,
