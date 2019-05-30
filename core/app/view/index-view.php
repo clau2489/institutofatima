@@ -1,5 +1,5 @@
 <?php
-    $jobs  = PostData::getAllActive();
+    $jobs  = PostData::getAllPost();
   ?>
 
   <!--/ Carousel Star /-->
@@ -126,48 +126,37 @@
           <h2 class="title-a">Últimas Noticias</h2>
         </div>    
       </div>
-      <?php if(count($jobs)>0):?>
-      <?php foreach($jobs as $jb):?>
-      <div class="row noticia">
-        <div class="col-md-6">
-          <a href="./?view=post&id=<?php echo $jb->id; ?>" class="thumbnail">
-            <?php if($jb->image!=""):?>
+      <div class="row">
+        <?php if(count($jobs)>0):?>
+        <?php foreach($jobs as $jb):?>      
+        <div class="col-md-4">
+          <div class="cortar">
+            <a href="./?view=post&id=<?php echo $jb->id; ?>" class="thumbnail">
+              <?php if($jb->image!=""):?>
               <img src="admin/uploads/<?php echo $jb->image; ?>" class="img-news">
-            <?php endif; ?>
-          </a>
+              <?php endif; ?>
+              <!-- <p><?php $nueva_fecha = date("d-m-Y",strtotime($jb->created_at)); echo $nueva_fecha; ?></p> -->
+              <br>
+              <h1 href="./?view=post&id=<?php echo $jb->id; ?>" class="title-new"><?php echo $jb->title; ?></h1>
+              <span href="./?view=post&id=<?php echo $jb->id; ?>" class="date-b"><?php echo $jb->brief; ?></span>
+              <!--<p><?php echo $jb->content; ?></p> -->
+            </a>            
+          </div>
         </div>
-        <div class="col-md-6">
-            <div id="postlist">        
-              <div class="panel">
-                <div class="panel-heading">
-                  <div class="text">
-                    <div class="row">
-                      <div class="col-sm-12"><br>
-                        <p><?php $nueva_fecha = date("d-m-Y",strtotime($jb->created_at)); echo $nueva_fecha; ?></p>
-                        <h1 class="title-new"><?php echo $jb->title; ?></h1>
-                        <span class="date-b"><?php echo $jb->brief; ?></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>                  
-                <div class="panel-body cortar">
-                    <p><?php echo $jb->content; ?></p>
-                </div>
-              </div>
-            </div>
-            <div class="text-center"><a href="./?view=post&id=<?php echo $jb->id; ?>" id="loadmore" class="btn btn-success">Continuar leyendo..</a></div>
-        </div>
-      </div>
-      <?php endforeach; ?>
+        <?php endforeach; ?>
+      </div>     
       <?php else:?>
-      <p class="alert alert-warning">No hay artículos publicados por el momento!</p>
-      <?php endif; ?>
-      <p><a href="./?view=blog">Click para leer todas las noticias</a></p>
-    </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="alert alert-warning">No hay artículos publicados por el momento!</p>
+          <?php endif; ?>
+          <p class="title-mas"><a href="./?view=blog"> Más noticias</a></p>            
+        </div>        
+      </div>
   </section>
   <!--/ News Grid End /-->
 
-  <!--/ Testimonials Star /-->
+  <!--/ Testimonials Star 
   <section class="section-testimonials nav-arrow-a">
     <div class="container center">
       <div class="row">
@@ -219,4 +208,5 @@
       </div>      
     </div>
   </section>
-  <!--/ Testimonials End /-->
+
+Testimonials End /-->

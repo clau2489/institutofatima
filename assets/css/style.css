@@ -515,6 +515,7 @@ a:hover {
 ======================================*/
 
 .navbar-default {
+    position: fixed-top;
     transition: all .5s ease-in-out;
     background-color: #5a0309;
     padding-top: 8px;
@@ -2037,7 +2038,7 @@ footer .credits {
 }
 .img-news {
     width: 100%;
-    height: auto;
+    height: 50%;
 }
 .title-news {
     /* background-color: #d4d4d4; */
@@ -2269,14 +2270,13 @@ background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
     background-color: #2d0202;
 }
 a.socialbox {
-
     font-weight: 300;
-    display: inline-block;
-    text-decoration: none;
     color: white;
-    padding: 4%;
-    width: 90%;
-    margin: 24px 0 0 24px;
+    padding: 2%;
+    margin: 7px;
+    display: -webkit-inline-box;
+    font-size: x-large;
+    border-radius: 6px;
 }
 a.socialbox.facebook {
     background-color: #094c78;
@@ -2299,12 +2299,12 @@ a.socialbox.linkedin {
   transition: background-color 0.25s ease-in-out;
 }
 a.socialbox .social-icon {
-  line-height: 32px;
-  font-size: 30px;
-  display: inline-block;
-  vertical-align: middle;
-  border-right: 1px solid rgba(255, 255, 255, 0.25);
-  padding-right: 15px;
+    line-height: 32px;
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    /* border-radius: 13px; */
+    /* padding-right: 15px; */
 }
 a.socialbox .description {
   display: inline-block;
@@ -2344,10 +2344,7 @@ a.socialbox .description span {
     flex: 1 1 auto;
     padding: 1.25rem;
     text-align: center;
-background: #C9D6FF;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #ffffff;
 }
 .bg-light {
     height: 100%;
@@ -2392,14 +2389,8 @@ background: linear-gradient(to bottom, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, 
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
   }
 }
-
-.noticia {
-    margin-left: 1px;
-    margin-right: 1px;
-    border-style: solid;
-    border-color: #ffffff;
+.p-2 {
     padding-top: 2em;
-    margin-bottom: 4em;
     padding-bottom: 2em;
 }
 .title-new {
@@ -2417,7 +2408,7 @@ background: linear-gradient(to bottom, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, 
     margin-bottom: 15px;
     padding-bottom: 19px;
     width: 100%;
-    height: 170px;
+    height: 100%;
     text-overflow: ellipsis;
     overflow: hidden;
 }
@@ -2432,11 +2423,16 @@ background: linear-gradient(to bottom, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, 
 
 }
 .border-bottom {
-    border-bottom: 2px solid #ffffff !important;
+    border-bottom: 2px solid #e4e4e4 !important;
 }
-
 .niveles{
 background: #FFEFBA;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to top, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to top, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.title-mas {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bold;
 }

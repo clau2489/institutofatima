@@ -51,6 +51,14 @@ class PostData {
 		return Model::many($query[0],new PostData());
 
 	}
+
+		public static function getAllPost(){
+		$sql = "select * from ".self::$tablename." where status=1 order by created_at desc LIMIT 6";
+		$query = Executor::doit($sql);
+		return Model::many($query[0],new PostData());
+
+	}
+
 	public static function getLike($q){
 		$sql = "select * from ".self::$tablename." where name like '%$q%'";
 		$query = Executor::doit($sql);
