@@ -73,6 +73,9 @@
             </div>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="./?view=blog">Noticias</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="./?view=proyect">Proyectos</a>
           </li>         
           <li class="nav-item">
@@ -95,12 +98,14 @@
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col-md-3" style="text-align: center">
+        <div class="col-md-4 form-b" style="text-align: center">
           <div class="container center">
-            <img src="assets/img/logo.png" style="width: 40%">
+            <img src="assets/img/logo.png" style="width: 40%">          
           </div>          
         </div>
-        <div class="col-md-3" style="text-align: center">
+        <div class="col-md-4 form-b" style="text-align: center">
+          <a href="./?view=about"><img src="assets/img/25.png" style="width: 50%;"></a>
+          <br>
           <span class="text-copy">Agüero 792 Esq. Constitución - Marcos Paz</span>
           <br>
           <span class="text-copy">Tel: (0220)-477-4414/ 0979</span>
@@ -108,7 +113,7 @@
           <span class="text-copy">E-mail: ignessrl@yahoo.com.ar</span>
           <br>
         </div>        
-        <div class="col-md-3" style="text-align: center">
+        <div class="col-md-4 form-b" style="text-align: center">
           <span class="text-copy">Seguinos en nuestras Redes Sociales</span>
           <br>
           <a class="socialbox facebook" href="https://www.facebook.com/ignes.srl">
@@ -119,19 +124,25 @@
           </a>                
           <a class="socialbox pinterest" href="https://www.instagram.com/insfa_marcospaz">
             <i class="fa fa-fw fa-instagram"></i>
-          </a>
+          </a><br>
+          <span class="text-copy">Enterate todas las novedades de nuestra Institución</span>
         </div>
-        <div class="col-md-3" style="text-align: center">
-          <a class="text-copy" href="admin/index.php"><i class="fa fa-lock" aria-hidden="true"></i> Acceso a usuarios registrados</a>
-          <br>
-          <br>
-          <p class="text-copy">2019 &copy;
-          <span class="text-copy">Instituto Ntra. Sra. de Fátima</span><br>
-          <span class="text-copy">Created by <a href="http://www.oestedev.com"><img src="assets/img/oestedev.png" style="width: 60px;"></a></span>           
-        </div>                        
       </div>
-    </div>
+    </div>                        
   </footer>
+  <div class="container-fluid footer-copyright" style="text-align: center">
+    <div class="row">
+      <div class="col-md-4" style="text-align: center">
+        <a class="text-copy" href="./?view=about">2019 &copy;Instituto Nuestra Señora. de Fátima</a>       
+      </div>
+      <div class="col-md-4" style="text-align: center">
+        <a class="text-copy" href="admin/index.php"><i class="fa fa-lock" aria-hidden="true"></i> Acceso a usuarios registrados</a>        
+      </div>
+      <div class="col-md-4" style="text-align: center">
+        <a class="text-copy" href="http://www.oestedev.com">Powered By<img src="assets/img/oestedev.png" style="width: 60px;"></a>
+      </div>            
+    </div>               
+  </div>
 
   <!-- JavaScript Libraries -->
   <script src="assets/lib/jquery/jquery.min.js"></script>

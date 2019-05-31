@@ -2,10 +2,10 @@
   <section class="intro-single">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 col-lg-8">
-          <div class="title-single-box">
-            <h1 class="title-single">Misión</h1>
-          </div>
+        <div class="col-md-12">
+
+            <h1 class="title-a">Misión</h1>
+
         </div>
       </div>
     </div>
@@ -32,10 +32,10 @@
   <section class="intro-single">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 col-lg-8">
-          <div class="title-single-box">
-            <h1 class="title-single">Visión</h1>
-          </div>
+        <div class="col-md-12">
+
+            <h1 class="title-a">Visión</h1>
+
         </div>
       </div>
     </div>

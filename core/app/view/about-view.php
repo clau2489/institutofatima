@@ -2,10 +2,8 @@
   <section class="intro-single">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 col-lg-8">
-          <div class="title-single-box">
-            <h1 class="title-single">Nuestra Historia</h1>
-          </div>
+        <div class="col-md-12">
+          <h1 class="title-a">Nuestra Historia</h1>
         </div>
       </div>
     </div>
@@ -43,7 +41,8 @@
       </div>
       <div class="row center">
         <div class="col-md-12">
-          <h2 class="title-single-box">Autoridades</h2>
+          <br><br><br>
+          <h2 class="title-a">Autoridades</h2>
           <p class="mb-1">Representantes Legales: <h1 class="title-single">Nélida Guillermino, Inés Villar</h1></p>
           <p class="mb-1">Socio Gerente: <h1 class="title-single">Eugenio Dioguardi</h1></p>
           <p class="mb-1">Secretaria: <h1 class="title-single">Amelia Rodríguez</h1></p>

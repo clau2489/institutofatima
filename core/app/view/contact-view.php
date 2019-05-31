@@ -2,10 +2,10 @@
   <section class="intro-single">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 col-lg-8">
-          <div class="title-single-box">
-            <h1 class="title-single">Nuestra ubicación</h1>
-          </div>
+        <div class="col-md-12">
+
+            <h1 class="title-a">Nuestra ubicación</h1>
+
         </div>
         <div class="col-md-12 col-lg-4">
         </div>
@@ -27,8 +27,8 @@
         </div>
         <div class="col-sm-12 section-t8">
           <div class="row">
-            <div class="col-md-6">
-              <div class="icon-box section-b2">
+            <div class="col-md-6 form-a">
+              <div class="icon-box ">
                 <div class="icon-box-icon">
                   <span class="ion-ios-pin"></span>
                 </div>
@@ -44,7 +44,7 @@
                   </div>
                 </div>
               </div>
-              <div class="icon-box section-b2">
+              <div class="icon-box ">
                 <div class="icon-box-icon">
                   <span class="ion-ios-paper-plane"></span>
                 </div>
@@ -60,7 +60,7 @@
                   </div>
                 </div>
               </div>
-              <div class="icon-box section-b2">
+              <div class="icon-box">
                 <div class="icon-box-icon">
                   <span class="ion-ios-paper-plane"></span>
                 </div>

@@ -1,23 +1,20 @@
 <?php
 $jobs  = PostData::getAllActive();
 ?>
-
-<div class="container section-t8">
-	<h1>Todas las noticias</h1>
+<br><br><br>
+<div class="container section-t8 ">
+	<h1 class="title-a form-a">Todas las noticias</h1>
 	<div class="panel panel-default">
 		<div class="panel-body">
 			<div class="row">
-
 				<?php if(count($jobs)>0):?>
 					<?php foreach($jobs as $jb):?>
 					<div class="col-md-4">
 						<?php if($jb->image!=""):?>
-						<img src="admin/uploads/<?php echo $jb->image; ?>" class="img-news">
+						<a href="./?view=post&id=<?php echo $jb->id; ?>"><img src="admin/uploads/<?php echo $jb->image; ?>" class="img-news"></a>
 						<?php endif; ?>
-						<h4><?php echo $jb->title; ?></h4>
-						<p><?php echo $jb->brief; ?></p>
-						<!--<p><?php echo $jb->content; ?></p> -->
-						<a href="./?view=post&id=<?php echo $jb->id; ?>" class="btn btn-primary">Leer</a>
+						<a href="./?view=post&id=<?php echo $jb->id; ?>"><h4><?php echo $jb->title; ?></h4></a>
+						<a href="./?view=post&id=<?php echo $jb->id; ?>"><p><?php echo $jb->brief; ?></p></a>
 					</div>
 					<?php endforeach; ?>
 					<?php else:?>
@@ -28,4 +25,3 @@ $jobs  = PostData::getAllActive();
 		</div>
 	</div>
 </div>
-<br><br><br><br>

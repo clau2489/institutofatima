@@ -2,10 +2,8 @@
   <section class="intro-single">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 col-lg-8">
-          <div class="title-single-box">
-            <h1 class="title-single">Educación de Nivel Inicial</h1>
-          </div>
+        <div class="col-md-12">
+          <h2 class="title-a">Nivel Inicial</h2>
         </div>
       </div>
     </div>
@@ -81,7 +79,7 @@
   <section class="gallery-block grid-gallery">
       <div class="container">
           <div class="heading">
-              <h2>Galería de fotos</h2>
+              <h1 class="title-a">Galería de fotos</h1>
           </div>
           <div class="row">
               <div class="col-md-6 col-lg-4 item">

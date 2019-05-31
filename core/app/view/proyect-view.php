@@ -3,9 +3,9 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <div class="title-single-box">
-            <h1 class="title-single">Proyectos Nivel Inicial 2019</h1>
-          </div>
+
+            <h1 class="title-a">Proyectos Nivel Inicial 2019</h1>
+
           <br>
           <p class="color-text-a">
             El proyecto de este año tiene varios ejes, uno de ellos está pensado desde la identidad y la historia de la escuela en donde, acorde a cada espacio curricular los niños exploren e investiguen sobre la Institución para que el Nivel forme parte activa de este jubileo y además, se logre afianzar todo aquello que se trabaja año a año como ser: <br>
@@ -25,9 +25,9 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <div class="title-single-box">
-            <h1 class="title-single">Proyectos Nivel Primario 2019</h1>
-          </div>
+
+            <h1 class="title-a">Proyectos Nivel Primario 2019</h1>
+
           <br>
           <p class="color-text-a">
             Al igual que hace 25 años, se  busca que los alumnos logren aprendizajes significativos a partir de los siguientes Proyectos<br>
@@ -50,9 +50,9 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <div class="title-single-box">
-            <h1 class="title-single">Proyectos Nivel Secundario 2019</h1>
-          </div>
+
+            <h1 class="title-a">Proyectos Nivel Secundario 2019</h1>
+
           <br>
           <p class="color-text-a">
             El nivel secundario se caracteriza por ofrecer una amplia variedad de proyectos en donde requieren el compromiso de los Estudiantes y de sus familias para poder generar un desarrollo integral de cada uno de ellos. Algunos de lo que se realizan anualmente son:<br>

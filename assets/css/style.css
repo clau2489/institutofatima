@@ -15,7 +15,7 @@ h4,
 h5,
 h6 {
   color: #000000;
-  font-size: 25px;
+
 }
 
 a {
@@ -24,7 +24,7 @@ a {
 }
 
 a:hover {
-  color: #bd2130;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -83,7 +83,9 @@ a:hover {
 }
 
 .color-a {
-  color: #bd2130;
+    color: #b10f1e;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .color-b {
@@ -97,7 +99,6 @@ a:hover {
 .color-text-a {
     color: #313131;
 }
-
 .no-margin {
   margin: 0;
 }
@@ -213,7 +214,7 @@ a:hover {
 .icon-box .icon-box-icon {
   display: table-cell;
   vertical-align: top;
-  font-size: 36px;
+  font-size: 25px;
   color: #000000;
   width: 50px;
   padding-top: 8px;
@@ -226,8 +227,8 @@ a:hover {
 /*------/ Space Padding /------*/
 
 .section-t8 {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .section-t4 {
@@ -253,8 +254,13 @@ a:hover {
 }
 
 .title-a {
-  font-size: 30px;
-  font-weight: 600;
+    font-size: 30px;
+    font-weight: 600;
+    color: #0a0a0a;
+    font-family: unset;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
 }
 
 .title-link {
@@ -294,6 +300,11 @@ a:hover {
   left: 0;
 }
 
+
+.title-single-box {
+    font-size: 16px;
+    font-weight: 600;
+}
 /*------/ Display Table & Table Cell /------*/
 
 .display-table {
@@ -543,19 +554,17 @@ a:hover {
 .navbar-default.navbar-trans .nav-item,
 .navbar-default.navbar-reduce .nav-item {
   position: relative;
-  padding-right: 10px;
-  padding-bottom: 8px;
+  padding-right: 4px;
+  padding-bottom: 4px;
   margin-left: 0;
 }
 
 .navbar-default.navbar-trans .nav-link, .navbar-default.navbar-reduce .nav-link {
     font-size: 14px;
     color: #ffffff;
-    /* letter-spacing: 0.030em; */
     transition: all 0.1s ease-in-out;
     position: relative;
-    /* padding-left: 8px; */
-    padding-right: 0;
+
 }
 .navbar-default.navbar-trans .nav-link:before,
 .navbar-default.navbar-reduce .nav-link:before {
@@ -609,11 +618,9 @@ a:hover {
   color: #ffffff;
 }
 
-.navbar-default.navbar-trans .show > .nav-link,
-.navbar-default.navbar-trans .active > .nav-link,
-.navbar-default.navbar-trans .nav-link.show,
-.navbar-default.navbar-trans .nav-link.active {
-  color: #000000;
+.navbar-default.navbar-trans .show > .nav-link, .navbar-default.navbar-trans .active > .nav-link, .navbar-default.navbar-trans .nav-link.show, .navbar-default.navbar-trans .nav-link.active {
+    color: #ffffff;
+    font-size: initial;
 }
 
 .navbar-default.navbar-reduce {
@@ -644,33 +651,35 @@ a:hover {
 }
 
 .navbar-default .dropdown .dropdown-menu {
-  border-top: 0;
-  border-left: 4px;
-  border-right: 0;
-  border-bottom: 0;
-  -webkit-transform: translate3d(0px, -40px, 0px);
-  transform: translate3d(0px, -40px, 0px);
-  opacity: 0;
-  filter: alpha(opacity=0);
-  visibility: hidden;
-  transition: all 0.5s cubic-bezier(0.3, 0.65, 0.355, 1) 0s, opacity 0.31s ease 0s, height 0s linear 0.36s;
-  margin: 0;
-  border-radius: 0;
-  padding: 12px 0;
+    border-top: 0;
+    border-left: 4px;
+    border-right: 0;
+    border-bottom: 0;
+    -webkit-transform: translate3d(0px, -40px, 0px);
+    transform: translate3d(0px, -40px, 0px);
+    opacity: 0;
+    filter: alpha(opacity=0);
+    visibility: hidden;
+    transition: all 0.5s cubic-bezier(0.3, 0.65, 0.355, 1) 0s, opacity 0.31s ease 0s, height 0s linear 0.36s;
+    margin: 0;
+    border-radius: 0;
+    padding: 12px 0;
+    background-color: #5a0309;
 }
 
 .navbar-default .dropdown .dropdown-menu .dropdown-item {
     padding: 12px 18px;
     transition: all 500ms ease;
-    font-weight: 600;
+    font-size: 14px;
     min-width: 220px;
     text-align: center;
+    color: white;
 }
 
 .navbar-default .dropdown .dropdown-menu .dropdown-item:hover {
-  background-color: #ffffff;
-  color: #bd2130;
-  transition: all 500ms ease;
+    background-color: #310404;
+    color: #ffffff;
+    transition: all 500ms ease;
 }
 
 .navbar-default .dropdown .dropdown-menu .dropdown-item.active {
@@ -945,7 +954,7 @@ a:hover {
 /*------/ Intro Single /------*/
 
 .intro-single {
-  padding: 12rem 0 3rem;
+    padding: 8rem 0 2rem;
 }
 
 .intro-single .title-single-box {
@@ -1577,6 +1586,15 @@ footer .credits {
   font-size: 13px;
 }
 
+.form-a {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.form-b {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 .form-a label {
   color: #000000;
   position: relative;
@@ -1587,13 +1605,9 @@ footer .credits {
 }
 
 .form-a .form-control {
-  border-radius: 0;
-  font-size: 1.1rem;
-  font-weight: 300;
-}
-
-.form-a .form-control.form-control-a {
-  height: 3.5rem;
+    border-radius: 0;
+    font-size: 13px;
+    /* font-weight: 600; */
 }
 
 .form-a .form-control:focus {
@@ -1612,7 +1626,7 @@ footer .credits {
 .btn.btn-a,
 .btn.btn-b {
   border-radius: 0;
-  padding: 1rem 3rem;
+  padding: 0.30rem 3rem;
   letter-spacing: .05rem;
 }
 
@@ -2021,6 +2035,7 @@ footer .credits {
 .text-copy {
     color: #ced4da;
     font-size: 12px;
+
 }
 
 #copyright {
@@ -2206,10 +2221,9 @@ background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
 
 .horario-title {
     font-size: 20px;
-
     font-weight: 700;
     padding-top: 1em;
-    color: #fff8ed;
+    color: #0e0e0e;
 }
 .horario-hour {
     font-size: 1.5em;
@@ -2231,9 +2245,9 @@ background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
     text-align: center;
 }
 .icon-title {
-    font-size: larger;
-    color: #ffffff;
-    text-decoration-color: beige;
+    /* font-size: larger; */
+    color: #000000;
+    text-decoration-color: #040404;
 }
 
 .carousel-group {
@@ -2331,10 +2345,9 @@ a.socialbox .description span {
 }
 .prof {
     text-align: center;
-    background-image: url(../img/galeria.jpg);
+    background-image: linear-gradient( rgb(255, 215, 215), rgba(255, 255, 255, 0.69) ),url(../img/galeria.jpg);
     background-size: cover;
 }
-
 .nivel {
     padding: 20px;
 }
@@ -2416,6 +2429,7 @@ a.socialbox .description span {
     text-transform: uppercase;
     color: #580e0e;
     font-weight: 900;
+    font-size: 20px;
 }
 .title-new-post {
     font-size: 32px;
@@ -2435,4 +2449,11 @@ background: linear-gradient(to top, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Fir
     text-decoration: underline;
     font-size: 20px;
     font-weight: bold;
+}
+.nav-vert {
+    color: white;
+    font-size: 10px;
+}
+.footer-copyright {
+    background-color: #3a0a0a;
 }

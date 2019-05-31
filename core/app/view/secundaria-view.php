@@ -2,10 +2,10 @@
   <section class="intro-single">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 col-lg-8">
-          <div class="title-single-box">
-            <h1 class="title-single">Educación de Nivel Secundario</h1>
-          </div>
+        <div class="col-md-12">
+
+            <h1 class="title-a">Educación de Nivel Secundario</h1>
+
         </div>
       </div>
     </div>
@@ -23,7 +23,7 @@
             </div>
             <div class="col-md-6 parraf">
               <p class="color-text-a">
-El Nivel Secundario cuenta con el Ciclo Básico de tres años y el Ciclo Superior, también de tres años pero que ofrece dos orientaciones. Desde el 2018, el Instituto forma parte de las escuelas promotoras de la nueva secundaria, por lo que este año tanto 1er año y 2do forman parte de este proyecto.   
+                El Nivel Secundario cuenta con el Ciclo Básico de tres años y el Ciclo Superior, también de tres años pero que ofrece dos orientaciones. Desde el 2018, el Instituto forma parte de las escuelas promotoras de la nueva secundaria, por lo que este año tanto 1er año y 2do forman parte de este proyecto.   
               </p>
               <p class="color-text-a">
                 La escuela cuenta con dos modalidades para el Nivel Superior orientadas en Economía y Gestión de las Organizaciones; y Humanidades y Ciencias Sociales, con el objetivo de preparar a los Estudiantes tanto para que extiendan sus estudios como también para el mundo laboral.   
@@ -113,7 +113,7 @@ El Nivel Secundario cuenta con el Ciclo Básico de tres años y el Ciclo Superio
   <section class="gallery-block grid-gallery">
       <div class="container">
           <div class="heading">
-              <h2>Galería de fotos</h2>
+              <h1 class="title-a">Galería de fotos</h1>
           </div>
           <div class="row">
               <div class="col-md-6 col-lg-4 item">
