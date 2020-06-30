@@ -1,7 +1,7 @@
 <?php
 $jb  = PostData::getById($_GET["id"]);
 ?>
-<br><br><br><br><br><br>
+
 
 <script language="javascript">
     function fbshareCurrentPage()
@@ -10,29 +10,40 @@ $jb  = PostData::getById($_GET["id"]);
     return false; }
 </script>
 
+  <!-- slider -->
+  <?php if($jb->image!=""):?>
+  <div class="hero-wrap" style="background-image: url('admin/uploads/<?php echo $jb->image; ?>');" data-stellar-background-ratio="0.5">
+  <?php endif; ?>  
+    <div class="overlays"></div>
+    <div class="container">
+      <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
+        <div class="col-md-12 ftco-animate">
+          <br><br><br><br><br><br>
+          <h1 class="mt-4"><?php echo $jb->title; ?></h1>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="text">
+                <p><?php echo $jb->brief; ?></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <!--/ News Single Star /-->
 <section class="news-single nav-arrow-b section t-8">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
-        <p><?php $nueva_fecha = date("d-m-Y",strtotime($jb->created_at)); echo $nueva_fecha; ?></p>
-        <h1 class="title-new-post"><?php echo $jb->title; ?></h1>
-        <br>
-        <span class="date-b"><h4 class="subtitle"><?php echo $jb->brief; ?></h4></span><hr>        
+      <div class="col-md-12">      
       </div>
     </div>
     <div class="row">
       <div class="col-sm-6">
-        <div class="news-img-box">
-          <?php if($jb->image!=""):?>
-          <img src="admin/uploads/<?php echo $jb->image; ?>" class="img-fluid" >
-          <?php endif; ?>
-        </div>
-      </div>
-      <div class="col-md-6">
         <div class="color-text-a">
-            <?php echo $jb->content; ?>
+          <p><?php $nueva_fecha = date("d-m-Y",strtotime($jb->created_at)); echo $nueva_fecha; ?></p>
+          <?php echo $jb->content; ?>
         </div>
         <div class="post-footer">
           <div class="post-share">
@@ -76,6 +87,21 @@ $jb  = PostData::getById($_GET["id"]);
             <button type="submit" class="btn btn-default">Comentar</button>
           </form>
         </div>        
+      </div>
+      <div class="col-sm-2">
+        
+      </div>
+      <div class="col-sm-4 text-center">
+        <br><br>
+        <img src="img/historia.jpg" style="width: 100%;">
+        <br>
+        <br>
+        <img src="img/logo.png" style="width: 100%">
+        <br>
+        <br>
+        <img src="img/universitaria.jpg" style="width: 100%">
+        <br>
+
       </div>        
     </div>
   </div>
